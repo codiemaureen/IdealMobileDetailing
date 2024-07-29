@@ -26,6 +26,11 @@ Payment Platform
 
 Planned features and future direction of the project.
 
+Add Calendy Scheduling Feature
+Add Contact me Form
+Add Stripe or Venmo Payment Option
+User Account to access previously booked appointments and make changes to exsisting/pending appointments
+
 ## Changelog
 
 All notable changes to this project will be documented in this file.
