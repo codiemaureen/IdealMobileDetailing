@@ -45,6 +45,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Initial release of the project.
 - Base Layout and Documentation
 
+## [1.0.0] - 08-01-2024
+
+### Added
+
+- Create React App
+
 ## Support
 
 Please email Codiestover.cs@gmail.com for support
