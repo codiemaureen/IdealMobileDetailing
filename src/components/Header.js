@@ -1,8 +1,8 @@
 const Header = () => {
   return (
-    <div>
+    <header>
       <h1>Ideal Mobile Detailing</h1>
-    </div>
+    </header>
   )
 }
 
