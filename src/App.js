@@ -1,9 +1,10 @@
-function App() {
+import Header from "./components/Header";
+
+
+const App = () => {
   return (
     <div className="App">
-      <header >
-        <h1>Ideal Mobile Detailing</h1>
-      </header>
+      <Header />
     </div>
   );
 }
