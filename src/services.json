@@ -1,12 +1,5 @@
-import Details from "./components/Details";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import { useState } from "react";
-
-
-const App = () => {
-  const [services, setServices] = useState([
-  {
+{
+ "services":  [{
    "id": 1,
    "title": "Complete Detail",
    "price": "$120.00",
@@ -33,15 +26,5 @@ const App = () => {
     "EXTERIOR WAX/HAND BUFF",
     "CHROME POLISH"
    ]
-  }
- ])
-  return (
-    <div className="App">
-      <Header />
-      <Details services={services} />
-      <Footer />
-    </div>
-  );
+  }]
 }
-
-export default App;
