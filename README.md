@@ -2,16 +2,15 @@
 
 ## Description
 
-    				<p>Ideal Mobile Detailing is a local Mobile Detailing business that would like a website for their customers to access the
-    				following information</p>
+Ideal Mobile Detailing is a local Mobile Detailing business that would like a website for their customers to access the
+following information
 
-
-    					 * Services Offered
-    						* Prices for each Service
-    						* Customer Reviews
-    						* Scheduling Options
-    						* Contact Form
-    						* Payment Platform
+- Services Offered
+- Prices for each Service
+- Customer Reviews
+- Scheduling Options
+- Contact Form
+- Payment Platform
 
 ## Table of Contents
 
