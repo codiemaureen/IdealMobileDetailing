@@ -36,8 +36,8 @@ const App = () => {
   }
  ])
   return (
-    <div className="App">
-      <Header />
+    <div className="app">
+      <Header/>
       <Details services={services} />
       <Footer />
     </div>

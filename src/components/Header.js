@@ -1,7 +1,10 @@
+import logo from '../images/ideal-mobile-detailing.jpg'
+
 const Header = () => {
   return (
-    <header>
-      <h1>Ideal Mobile Detailing</h1>
+    <header className='header'>
+      <img src={logo} alt="logo" className='logo'/>
+      <h1 className='heading-title'>Ideal Mobile Detailing</h1>
     </header>
   )
 }

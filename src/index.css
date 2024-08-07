@@ -9,7 +9,12 @@ body {
   color: white;
 }
 
-.App {
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
   max-width: 500px;
   margin: 30px auto;
   overflow: auto;
@@ -17,7 +22,20 @@ body {
   padding: 30px;
   border-radius: 5px;
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.header {
+  display: flex;
+  border-bottom: 5px solid orange;
+  margin: auto;
+  padding-bottom: 2em;
+}
+ .logo{
+  justify-content: center;
+  border-radius: 50%;
+  height: 10vh;
+}
+
+.heading-title {
+  display: block;
+  margin: auto;
 }
