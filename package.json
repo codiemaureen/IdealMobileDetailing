@@ -1,6 +1,7 @@
 {
   "name": "ideal-mobile-detailing",
   "version": "0.1.0",
+  "homepage": "https://codiemaureen.github.io/IdealMobileDetailing",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
