@@ -8,7 +8,7 @@ const NavBar = () => {
     <div style={{display: "flex"}}>
       {navItems.map((item) => (
        <ul>
-        <li key={id} style={{display: "flex", float: "left"}}>{item}</li>
+        <a href="" target="_blank"><li key={id} style={{display: "flex", float: "left", color: "orange"}}>{item}</li></a>
        </ul>
       ))}
     </div>
