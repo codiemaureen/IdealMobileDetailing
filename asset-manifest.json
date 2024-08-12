@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/IdealMobileDetailing/static/css/main.a2fb359e.css",
-    "main.js": "/IdealMobileDetailing/static/js/main.3431a642.js",
+    "main.js": "/IdealMobileDetailing/static/js/main.d51ac353.js",
     "static/js/453.7a56e406.chunk.js": "/IdealMobileDetailing/static/js/453.7a56e406.chunk.js",
     "static/media/ideal-mobile-detailing.jpg": "/IdealMobileDetailing/static/media/ideal-mobile-detailing.2ee354e9204d4f8fc3c4.jpg",
     "index.html": "/IdealMobileDetailing/index.html",
     "main.a2fb359e.css.map": "/IdealMobileDetailing/static/css/main.a2fb359e.css.map",
-    "main.3431a642.js.map": "/IdealMobileDetailing/static/js/main.3431a642.js.map",
+    "main.d51ac353.js.map": "/IdealMobileDetailing/static/js/main.d51ac353.js.map",
     "453.7a56e406.chunk.js.map": "/IdealMobileDetailing/static/js/453.7a56e406.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2fb359e.css",
-    "static/js/main.3431a642.js"
+    "static/js/main.d51ac353.js"
   ]
 }
