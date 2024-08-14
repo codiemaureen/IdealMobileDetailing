@@ -1,9 +1,14 @@
 .contactForm{
  margin-top: 7vh;
  border-top: 5px solid orange;
- padding: 10vh;
  display: flex;
  justify-content: center;
+ align-items: center;
+}
+
+form{
+ max-width: 100%;
+ margin: 25px;
 }
 
 .input-box {
@@ -22,4 +27,24 @@
  margin-top: 2vh;
  min-width: 100%;
  min-height: 20vh;
+}
+
+
+form button {
+ height: 40px;
+ width: 100%;
+ line-height: 40px;
+ text-align: center;
+ background-color: orange;
+ color: white;
+ border: none;
+ border-radius: 6px;
+ box-shadow: 0, 0, 0 rgba(225, 222, 222, 0.576);
+ font-weight: 600;
+ font-size: 18px;
+}
+
+form button:hover {
+ background-color: white;
+ color: orange;
 }
