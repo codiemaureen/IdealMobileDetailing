@@ -1,0 +1,7 @@
+.contactForm{
+ margin-top: 7vh;
+ border-top: 5px solid orange;
+ padding: 10vh;
+ display: flex;
+ justify-content: center;
+}
