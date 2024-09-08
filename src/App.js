@@ -1,7 +1,9 @@
 import Details from "./components/Details";
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { useState } from "react";
+import Contact from "./components/Contact";
 
 
 const App = () => {
@@ -39,6 +41,11 @@ const App = () => {
     <div className="app">
       <Header/>
       <Details services={services} />
+      <Router>
+        <Routes>
+          <Route exact path="/" component={Contact} />
+        </Routes>
+      </Router>      
       <Footer />
     </div>
   );
