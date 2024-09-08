@@ -1,13 +1,13 @@
 import Service from "./Service"
-
+import '../style/details.css'
 
 const Details = ({ services }) => {
   return (
-    <div>
+    <section className="details-section">
      {services.map((service) => (
       <Service key={service.id} service={service} />
      ))}
-    </div>
+    </section>
   )
 }
 

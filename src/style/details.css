@@ -1,0 +1,6 @@
+.details-section{
+  border: 10px solid orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

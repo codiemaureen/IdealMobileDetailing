@@ -1,6 +1,6 @@
 .contactForm{
  margin-top: 7vh;
- border-top: 5px solid orange;
+ /* border-top: 5px solid orange; */
  display: flex;
  justify-content: center;
  align-items: center;
@@ -45,6 +45,5 @@ form button {
 }
 
 form button:hover {
- background-color: white;
- color: orange;
+ background-color: darkorange;
 }

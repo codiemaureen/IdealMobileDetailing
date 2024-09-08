@@ -1,16 +1,17 @@
 import React from 'react'
+import "../style/services.css"
 
 const Service = ({ service }) => {
   return (
-    <div>
-      <h2>{service.title}</h2>
-      <h3>{service.price}</h3>
+    <section className="service-options">
+      <h2>{service.title}
+      <span>{service.price}</span></h2>
       {service.included.map((incServ) => (
        <ul>
         <li key={service.id}>{incServ}</li>
        </ul>
     ))}
-    </div>
+    </section>
   )
 }
 

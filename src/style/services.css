@@ -1,0 +1,14 @@
+.service-options {
+ justify-items: center;
+ min-width: 50%;
+ max-width: 50%;
+ margin: auto;
+ 
+}
+
+h2 {
+ display: flex;
+ border-bottom: 2px solid orange;
+ padding: 1rem;
+ justify-content: space-between;
+}
