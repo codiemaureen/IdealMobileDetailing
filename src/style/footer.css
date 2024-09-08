@@ -1,4 +1,32 @@
 .iconCredit {
  display: flex;
  justify-content: center;
+ color: white;
+}
+.iconCredit a{
+ display: flex;
+ justify-content: center;
+ color: orange;
+ text-decoration: none;
+ padding:0 3px;
+}
+
+.iconCredit a:hover {
+ color: darkorange;
+ text-decoration: underline;
+}
+
+.codieCredit{
+  display: flex;
+  justify-content: center;
+}
+
+.codieCredit a{
+ text-decoration: none;
+ color: orange;
+}
+
+.codieCredit a:hover{
+ text-decoration: underline;
+ color: darkorange;
 }

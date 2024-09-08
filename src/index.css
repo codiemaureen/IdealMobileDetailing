@@ -15,9 +15,10 @@ code {
 }
 
 .app {
-  max-width: 500px;
+  max-width: 60%;
   margin: 30px auto;
   overflow: auto;
+  margin: auto;
   min-height: 300px;
   padding: 30px;
   border-radius: 5px;
