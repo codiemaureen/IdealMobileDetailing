@@ -1,0 +1,25 @@
+nav {
+ display: flex;
+ flex-direction: column;
+}
+
+.navItems{
+ display: inline-block;
+ margin: auto;
+ padding: 5%;
+}
+
+.navLinks{
+ display: flex;
+ justify-content: center;
+ text-decoration: none;
+ color: orange;
+}
+
+.navLinks:hover{
+ color: darkorange;
+}
+
+.navLinks:active{
+ color: red;
+}
