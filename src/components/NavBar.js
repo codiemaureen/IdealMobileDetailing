@@ -1,5 +1,5 @@
 const NavBar = () => {
-  let navItems = ["Home", "Contact Me", "Schedule Service", "Reviews"]
+  let navItems = ["Home", "Contact Me", "Schedule Service", "Photos", "Reviews"]
 
 
   let id = Math.floor(Math.random() * 10000) + 1;
