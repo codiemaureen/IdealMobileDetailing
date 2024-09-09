@@ -3,12 +3,13 @@
  min-width: 50%;
  max-width: 50%;
  margin: auto;
- 
 }
 
-h2 {
+h2 a{
  display: flex;
- border-bottom: 2px solid orange;
- padding: 1rem;
  justify-content: space-between;
+ padding: 1rem;
+ border-bottom: 2px solid orange;
+ color: white;
+ text-decoration: none;
 }
