@@ -1,17 +1,32 @@
-.image-container{
- 
-  border: 10px solid orange;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  margin: auto;
-  text-align: center;
+.image-container {
+ position: relative;
+ margin: 20% auto ;
+
+ /* Set the size of the container */
 }
 
-.car-photos{
-  justify-items: center;
-  min-width: 80%;
-  max-width: 80%;
-  margin: auto;
-  padding-bottom: 20px;
+.image-container img {
+ width: 100%;
+ height: auto;
+}
+.image-container h1 {
+ text-align: center;
+}
+
+.overlay {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0);
+ /* Initially transparent */
+ transition: background-color 0.3s ease;
+ /* Smooth transition */
+}
+
+.image-container:hover .overlay {
+ /* background-image: url('../images/After/Supreme\ F350/driver_interior.jpg') */
+ /* Opaque overlay on hover */
+  background-color: rgba(0, 0, 0, 0.5);
 }

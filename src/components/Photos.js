@@ -6,6 +6,7 @@ const Photos = () => {
     <div className='image-container'>
       <h1>Before and After Photos</h1>
       <img className="car-photos" src={F350DriverInterior} alt='F350-driver-interior'/>
+      <div className='overlay'></div>
     </div>
   )
 }
