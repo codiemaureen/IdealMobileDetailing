@@ -1,3 +1,9 @@
+.before-after-container{
+  margin: 20% auto;
+  text-align: center;
+  border: 10px solid orange;
+}
+
 .image-container {
  position: relative;
  margin: 20% auto ;
@@ -6,17 +12,16 @@
 }
 
 .image-container img {
- width: 100%;
+ width: 80%;
  height: auto;
-}
-.image-container h1 {
- text-align: center;
 }
 
 .overlay {
+ /* border: 3px solid red; */
  position: absolute;
+ margin-left: 10%;
+ margin-right: 20%;
  top: 0;
- left: 0;
  width: 100%;
  height: 100%;
  background-color: rgba(0, 0, 0, 0);
@@ -26,7 +31,10 @@
 }
 
 .image-container:hover .overlay {
- /* background-image: url('../images/After/Supreme\ F350/driver_interior.jpg') */
+ /* background-color: rgba(0, 0, 0, 0.5); */
  /* Opaque overlay on hover */
-  background-color: rgba(0, 0, 0, 0.5);
+ background-image: url('../images/After/Supreme\ F350/driver_interior.jpg');
+ background-size: 80%;
+ background-repeat: no-repeat;
+ /* margin: auto; */
 }

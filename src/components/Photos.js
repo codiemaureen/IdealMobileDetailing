@@ -3,10 +3,12 @@ import '../style/photos.css';
 
 const Photos = () => {
   return (
-    <div className='image-container'>
+    <div className='before-after-container'>
       <h1>Before and After Photos</h1>
-      <img className="car-photos" src={F350DriverInterior} alt='F350-driver-interior'/>
-      <div className='overlay'></div>
+      <div className='image-container'>
+        <img className="car-photos" src={F350DriverInterior} alt='F350-driver-interior'/>
+        <div className='overlay'></div>
+      </div>
     </div>
   )
 }
