@@ -2,6 +2,7 @@
   margin: 20% auto;
   text-align: center;
   border: 10px solid orange;
+  overflow: hidden;
 }
 
 .image-container {
@@ -36,5 +37,4 @@
  background-image: url('../images/After/Supreme\ F350/driver_interior.jpg');
  background-size: 80%;
  background-repeat: no-repeat;
- /* margin: auto; */
 }
