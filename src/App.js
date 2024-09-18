@@ -43,12 +43,12 @@ const App = () => {
       <Router basename="/IdealMobileDetailing">
       <Header/>
       <Details services={services} />
-      <Footer />
         <Routes>
           <Route path="/idealMobileDetailing" element={<Details />} />
           <Route path="/photos" element={<Photos />} />
         </Routes>
       </Router>      
+      <Footer />
     </div>
   );
 }
