@@ -5,16 +5,30 @@ import { useState } from 'react';
 
 const Photos = ({ imageUrls }) => {
   const [imageIndex, setImageIndex] = useState(0);
+
+  function showPrevImage(){
+    setImageIndex(index => {
+      if(index === 0) return imageUrls.length -1;
+      return index - 1;
+    })
+  }
+
+  function showNextImage() {
+    setImageIndex(index => {
+      if(index === imageUrls.length - 1) return 0;
+      return index + 1;
+    })
+  }
   return (
     <div className='before-after-container'>
       <h1>Before and After Photos</h1>
       <div className='image-container'>
         <img src={imageUrls[imageIndex]} alt='before photos'/>
         <div className='overlay'></div>
-        <button className='img-slider-btn' style={{ left: 0}}>
+        <button onClick={showPrevImage} className='img-slider-btn' style={{ left: 0}}>
           <ArrowBigLeft />
         </button>
-        <button className='img-slider-btn' style={{ right: 0}}>
+        <button onClick={showNextImage} className='img-slider-btn' style={{ right: 0}}>
           <ArrowBigRight />
         </button>
       </div>
