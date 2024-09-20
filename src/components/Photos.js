@@ -1,12 +1,14 @@
-import F350DriverInterior from '../images/Before/Supreme F350/driver_interior.jpg';
 import '../style/photos.css';
+import { useState } from 'react';
 
-const Photos = () => {
+
+const Photos = ({ imageUrls }) => {
+  const [imageIndex, setImageIndex] = useState(0);
   return (
     <div className='before-after-container'>
       <h1>Before and After Photos</h1>
       <div className='image-container'>
-        <img className="car-photos" src={F350DriverInterior} alt='F350-driver-interior'/>
+        <img src={imageUrls[imageIndex]} alt='before photos'/>
         <div className='overlay'></div>
       </div>
     </div>
