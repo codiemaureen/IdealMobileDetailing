@@ -3,21 +3,17 @@
   text-align: center;
   border: 10px solid orange;
   justify-items: center;
-  min-width: 50%;
-  max-width: 50%;
   overflow: hidden;
 }
 
 h1 {
-  font-size: 4vw;
+  font-size: 3vw;
   padding: auto;
 }
 
 .image-container {
  position: relative;
  margin: 20% auto ;
-
- /* Set the size of the container */
 }
 
 .image-container img {
@@ -25,6 +21,16 @@ h1 {
  height: auto;
  margin: auto;
  display: block;
+}
+
+.img-slider-btn {
+ all: unset;
+ display: block;
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ color: white;
+ cursor: pointer;
 }
 
 .overlay {

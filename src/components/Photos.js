@@ -11,10 +11,10 @@ const Photos = ({ imageUrls }) => {
       <div className='image-container'>
         <img src={imageUrls[imageIndex]} alt='before photos'/>
         <div className='overlay'></div>
-        <button>
+        <button className='img-slider-btn' style={{ left: 0}}>
           <ArrowBigLeft />
         </button>
-        <button>
+        <button className='img-slider-btn' style={{ right: 0}}>
           <ArrowBigRight />
         </button>
       </div>
