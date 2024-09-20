@@ -8,6 +8,11 @@
   overflow: hidden;
 }
 
+h1 {
+  font-size: 4vw;
+  padding: auto;
+}
+
 .image-container {
  position: relative;
  margin: 20% auto ;
@@ -42,8 +47,3 @@
  background-size: 80%;
  background-repeat: no-repeat;
 }
-
-/* .image-container button {
-  clear: both;
-  display: inline-block;
-} */
