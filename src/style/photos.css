@@ -36,7 +36,7 @@
 .image-container:hover .overlay {
  /* background-color: rgba(0, 0, 0, 0.5); */
  /* Opaque overlay on hover */
- background-image: url('../images/After/Supreme\ F350/driver_interior.jpg');
+ background-image: url('../images/After/Supreme\ F350/driver_exterior.jpg');
  background-size: 80%;
  background-repeat: no-repeat;
 }
