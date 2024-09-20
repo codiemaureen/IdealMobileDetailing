@@ -18,6 +18,8 @@
 .image-container img {
  width: 80%;
  height: auto;
+ margin: auto;
+ display: block;
 }
 
 .overlay {
@@ -40,3 +42,8 @@
  background-size: 80%;
  background-repeat: no-repeat;
 }
+
+/* .image-container button {
+  clear: both;
+  display: inline-block;
+} */

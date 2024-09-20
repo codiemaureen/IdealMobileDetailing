@@ -1,3 +1,4 @@
+import { ArrowBigLeft, ArrowBigRight } from 'lucide-react';
 import '../style/photos.css';
 import { useState } from 'react';
 
@@ -10,6 +11,12 @@ const Photos = ({ imageUrls }) => {
       <div className='image-container'>
         <img src={imageUrls[imageIndex]} alt='before photos'/>
         <div className='overlay'></div>
+        <button>
+          <ArrowBigLeft />
+        </button>
+        <button>
+          <ArrowBigRight />
+        </button>
       </div>
     </div>
   )
