@@ -5,6 +5,10 @@
  margin: auto;
 }
 
+h2{
+ font-size: 2vw;
+}
+
 h2 a{
  display: flex;
  justify-content: space-between;
@@ -12,4 +16,8 @@ h2 a{
  border-bottom: 2px solid orange;
  color: white;
  text-decoration: none;
+}
+
+li{
+ font-size: 1vw;
 }
