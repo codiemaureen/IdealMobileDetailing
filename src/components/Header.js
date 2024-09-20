@@ -1,5 +1,6 @@
 import logo from '../images/ideal-mobile-detailing.jpg'
 import NavBar from './NavBar'
+import '../style/header.css'
 
 const Header = () => {
   return (
