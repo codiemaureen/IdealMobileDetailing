@@ -4,7 +4,10 @@
   border: 10px solid orange;
   justify-items: center;
   overflow: hidden;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
 
 h1 {
   font-size: 3vw;
@@ -13,12 +16,11 @@ h1 {
 
 .image-container {
  position: relative;
- margin: 20% auto ;
+ margin-bottom: 10%;
 }
 
 .image-container img {
  width: 80%;
- height: auto;
  margin: auto;
  display: block;
 }
@@ -29,7 +31,7 @@ h1 {
  position: absolute;
  top: 0;
  bottom: 0;
- padding: 1rem;
+ padding: 3rem;
  cursor: pointer;
  transition: background-color 100ms ease-in-out;
 }
@@ -38,8 +40,8 @@ h1 {
 .img-slider-btn > * {
   stroke: white;
   fill: black;
-  width: 2rem;
-  height: 2rem;
+  min-width: 5rem;
+  min-height: 5rem;
 }
 
 .overlay {
