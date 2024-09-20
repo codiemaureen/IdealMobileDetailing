@@ -5,6 +5,9 @@
  margin: auto;
 }
 
+.service-options:last-child{
+ padding-bottom: 2rem;
+}
 h2{
  font-size: 2vw;
 }
