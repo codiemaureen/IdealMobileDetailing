@@ -29,8 +29,20 @@ h1 {
  position: absolute;
  top: 0;
  bottom: 0;
- color: white;
+ padding: 1rem;
  cursor: pointer;
+ transition: background-color 100ms ease-in-out;
+}
+
+.img-slider-btn:hover {
+  background-color: rgba(233, 230, 230, 0.3);
+}
+
+.img-slider-btn > * {
+  stroke: white;
+  fill: black;
+  width: 2rem;
+  height: 2rem;
 }
 
 .overlay {
