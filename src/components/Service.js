@@ -16,7 +16,7 @@ const Service = ({ service }) => {
         <li key={service.id}>{incServ}</li>
        </ul>
     ))}
-    <button onClick={handleClick} className='schedule-service'>Schedule Now!</button>
+    <button onClick={handleClick} className='schedule-service'>Schedule Your Service Now!</button>
     </section>
   )
 }

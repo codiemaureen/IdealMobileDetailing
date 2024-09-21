@@ -24,3 +24,19 @@ h2 a{
 li{
  font-size: 1vw;
 }
+
+.schedule-service{
+ all: unset;
+ display: flex;
+ margin: auto;
+ margin-top: 2rem;
+ padding: 1rem;
+ background-color: orange;
+ color: white;
+ font-size: 80%;
+ font-weight: 600;
+ max-width: 70%;
+ max-height: 20%;
+ cursor: pointer;
+ border-radius: 1rem;
+}
