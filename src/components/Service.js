@@ -1,7 +1,12 @@
 import React from 'react'
 import "../style/services.css"
 
+
 const Service = ({ service }) => {
+
+  const handleClick = () => {
+    window.open("https://calendly.com/codiemaureen/mom-needs-help?back=1&month=2024-09", '_blank')
+  }
   return (
     <section className="service-options">
       <h2><a href="https://calendly.com/codiemaureen/mom-needs-help?back=1&month=2024-09" target='_blank'> {service.title}
@@ -11,6 +16,7 @@ const Service = ({ service }) => {
         <li key={service.id}>{incServ}</li>
        </ul>
     ))}
+    <button onClick={handleClick} className='schedule-service'>Schedule Now!</button>
     </section>
   )
 }
