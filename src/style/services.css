@@ -40,3 +40,7 @@ li{
  cursor: pointer;
  border-radius: 1rem;
 }
+
+.schedule-service:hover{
+ background-color: darkorange;
+}
