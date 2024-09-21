@@ -1,4 +1,4 @@
-.before-after-container{
+.before-after-container {
   margin: 20% auto;
   text-align: center;
   border: 10px solid orange;
@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  }
+}
 
 h1 {
   font-size: 3vw;
@@ -15,29 +15,29 @@ h1 {
 }
 
 .image-container {
- position: relative;
- margin-bottom: 10%;
+  position: relative;
+  margin-bottom: 10%;
 }
 
 .image-container img {
- width: 80%;
- margin: auto;
- display: block;
+  width: 80%;
+  margin: auto;
+  display: block;
 }
 
 .img-slider-btn {
- all: unset;
- display: block;
- position: absolute;
- top: 0;
- bottom: 0;
- padding: 3rem;
- cursor: pointer;
- transition: background-color 100ms ease-in-out;
+  all: unset;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 3rem;
+  cursor: pointer;
+  transition: background-color 100ms ease-in-out;
 }
 
 
-.img-slider-btn > * {
+.img-slider-btn>* {
   stroke: white;
   fill: black;
   min-width: 5rem;
@@ -45,22 +45,22 @@ h1 {
 }
 
 .overlay {
- position: absolute;
- margin-left: 10%;
- top: 0;
- width: 100%;
- height: 100%;
- justify-items: center;
- background-color: rgba(0, 0, 0, 0);
- /* Initially transparent */
- transition: background-color 0.3s ease;
- /* Smooth transition */
+  position: absolute;
+  margin-left: 10%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  /* Initially transparent */
+  transition: background-color 0.3s ease;
+  /* Smooth transition */
 }
 
-.overlay:hover{
- /* background-color: rgba(0, 0, 0, 0.5); */
- /* Opaque overlay on hover */
- background-image: url('../images/After/Supreme\ F350/driver_exterior.jpg');
- background-size: 80%;
- background-repeat: no-repeat;
+.overlay:hover {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* Opaque overlay on hover */
+  background-image: url('../images/After/Supreme\ F350/driver_exterior.jpg');
+  background-size: 80%;
+  background-repeat: no-repeat;
 }
