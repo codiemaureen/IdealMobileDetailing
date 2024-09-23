@@ -10,7 +10,6 @@
 }
 h2{
  font-size: 3vw;
- padding: 2em;
 }
 
 h2 a{
@@ -22,7 +21,7 @@ h2 a{
 }
 
 .services-offered{
- font-size: 2vw;
+ font-size: 1.5vw;
  padding: 1vw;
  /* border: 2px solid orange; */
 }
