@@ -23,3 +23,32 @@ nav {
 .navLinks:active{
  color: red;
 }
+
+
+@media only screen and (max-width: 1200px) {
+ nav{
+  display: flex;
+  margin: 3vh auto;
+ }
+ nav > *{
+  display: flex;
+  white-space: nowrap;
+  font-size: 70%;
+  flex-direction: column;
+  padding: 0%;
+  justify-items: center;
+
+ }
+ .navItems{
+  width: 50vw;
+  font-size: 1rem;
+  border-bottom: 5px solid orange;
+ }
+ .navItems:active{
+  background-color: white;
+  transition: background-color 100ms ease-in-out;
+ }
+ .navLinks:active{
+  color: orange;
+ }
+}
