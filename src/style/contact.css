@@ -11,6 +11,15 @@ form{
  margin: 25px;
 }
 
+
+form > * {
+ font-size: 2vw;
+}
+
+h1{
+ font-size: 2rem;
+}
+
 .input-box {
  min-width: 20vw;
  padding: 2vh;
