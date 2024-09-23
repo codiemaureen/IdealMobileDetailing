@@ -1,6 +1,7 @@
 .details-section{
   border: 10px solid orange;
   display: flex;
+  padding: 4vw;
   flex-direction: column;
   justify-content: center;
 }

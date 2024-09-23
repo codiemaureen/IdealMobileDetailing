@@ -13,7 +13,7 @@ const Service = ({ service }) => {
       <span>{service.price}</span></a></h2>
       {service.included.map((incServ) => (
        <ul>
-        <li key={service.id}>{incServ}</li>
+        <li className="services-offered" key={service.id}>{incServ}</li>
        </ul>
     ))}
     <button onClick={handleClick} className='schedule-service'>Schedule Your Service Now!</button>
