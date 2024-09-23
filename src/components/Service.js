@@ -10,7 +10,8 @@ const Service = ({ service }) => {
   return (
     <section className="service-options">
       <h2><a href="https://calendly.com/codiemaureen/mom-needs-help?back=1&month=2024-09" target='_blank'> {service.title}
-      <span>{service.price}</span></a></h2>
+      <span className='service-price'>{service.price}</span></a></h2>
+
       {service.included.map((incServ) => (
        <ul>
         <li className="services-offered" key={service.id}>{incServ}</li>
