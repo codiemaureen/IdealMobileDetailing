@@ -48,6 +48,7 @@ const App = () => {
       <Router basename="/IdealMobileDetailing">
       <Header/>
         <Routes>
+          <Route path="/" element={<Details services={services} />} />
           <Route path="/index.html" element={<Details services={services} />} />
           <Route path="/photos" element={<Photos imageUrls={BEFORE}/>} />
         </Routes>
