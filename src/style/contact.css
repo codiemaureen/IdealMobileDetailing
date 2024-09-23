@@ -1,13 +1,16 @@
 .contactForm{
- margin-top: 7vh;
- /* border-top: 5px solid orange; */
+ margin: 10vh auto;
+ border: 5px solid orange;
  display: flex;
  justify-content: center;
  align-items: center;
+ max-width: 40vw;
+ padding: 1rem;
+
 }
 
 form{
- max-width: 100%;
+ /* max-width: 100%; */
  margin: 25px;
 }
 
