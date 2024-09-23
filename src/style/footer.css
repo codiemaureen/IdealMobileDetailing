@@ -2,6 +2,7 @@
  display: flex;
  justify-content: center;
  color: white;
+white-space: nowrap;
 }
 .iconCredit a{
  display: flex;
@@ -19,6 +20,7 @@
 .codieCredit{
   display: flex;
   justify-content: center;
+  white-space: nowrap;
 }
 
 .codieCredit a{
