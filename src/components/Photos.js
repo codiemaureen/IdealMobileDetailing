@@ -20,7 +20,7 @@ const Photos = ({ imageUrls }) => {
     })
   }
   return (
-    <div className='before-after-container'>
+    <div id="photos" className='before-after-container'>
       <h1>Before and After Photos</h1>
       <div className='image-container'>
         <img src={imageUrls[imageIndex]} alt='before photos'/>
