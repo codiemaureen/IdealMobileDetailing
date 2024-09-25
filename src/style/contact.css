@@ -8,19 +8,14 @@
  padding: 1rem;
 }
 
-form{
- /* max-width: 100%; */
- margin: 25px;
-}
-
 form h1 {
- font-size: 7vw;
+ font-size: 4vw;
  margin: 0 2vw;
  white-space: nowrap;
 }
 
 label{
- font-size: 3vw;
+ font-size: 1vw;
  font-weight: 700;
  white-space: nowrap;
 }
@@ -62,4 +57,19 @@ form button {
 
 form button:hover {
  background-color: darkorange;
+}
+
+
+@media only screen and (max-width: 480px){
+ form h1 {
+ font-size: 7vw;
+ margin: 0 2vw;
+ white-space: nowrap;
+}
+
+label{
+ font-size: 3vw;
+ font-weight: 700;
+ white-space: nowrap;
+}
 }
