@@ -64,11 +64,18 @@ h1 {
   display: flex;
   margin: auto;
   background-image: url('../images/After/Supreme\ F350/driver_exterior.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 480px){
-  
+  .overlay:hover {
+      display: flex;
+      margin: auto;
+      background-image: url('../images/After/Supreme\ F350/driver_exterior.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
 }
