@@ -43,10 +43,12 @@ h1{
 
 
 form button {
- height: 40px;
- width: 100%;
- line-height: 40px;
- text-align: center;
+ display: flex;
+ height: 5vh;
+ line-height: 5vh;
+ margin: auto;
+ justify-content: center;
+ padding: 0 5vw;
  background-color: orange;
  color: white;
  border: none;
