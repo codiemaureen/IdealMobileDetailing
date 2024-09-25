@@ -6,7 +6,6 @@
  align-items: center;
  max-width: 40vw;
  padding: 1rem;
-
 }
 
 form{
@@ -14,13 +13,17 @@ form{
  margin: 25px;
 }
 
-
-form > * {
- font-size: 2vw;
+form h1 {
+ font-size: 7vw;
+ margin: 0 2vw;
+ white-space: nowrap;
+ padding: 0 1vw;
 }
 
-h1{
- font-size: 2rem;
+label{
+ font-size: 3vw;
+ font-weight: 700;
+ white-space: nowrap;
 }
 
 .input-box {

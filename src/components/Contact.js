@@ -28,7 +28,7 @@ const Contact = () => {
     <div>
       <section className="contactForm" id="contactForm">
        <form onSubmit={onSubmit}>
-        <h1>Contact Form</h1>
+        <h1>Contact Us!</h1>
         <div className="input-box">
          <label>Name</label>
          <input type="text" className="field" placeholder="Enter Your Name" name="name"></input>
