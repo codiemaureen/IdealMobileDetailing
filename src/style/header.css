@@ -1,6 +1,7 @@
 h1.heading-title{
  display: block;
- font-size: 5vw;
+ font-size: 3vw;
+ letter-spacing: .5vw;
  white-space: nowrap;
  text-align: center;
 }
@@ -16,5 +17,13 @@ h1.heading-title{
  margin: auto;
  border: 3px solid black;
  border-radius: 5%;
- max-height: 30vh;
+ max-height: 20vh;
+}
+
+
+@media only screen and (max-width: 1000px){
+ h1.heading-title {
+  font-size: 5vw;
+  letter-spacing: .5vw;
+ }
 }
