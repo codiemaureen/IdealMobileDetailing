@@ -82,4 +82,7 @@ h2 a{
    border-radius: .5rem;
   }
 
+  .service-options{
+    max-width: 70vw;
+  }
 }

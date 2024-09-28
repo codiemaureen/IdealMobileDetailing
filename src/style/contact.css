@@ -72,4 +72,7 @@ label{
  font-weight: 700;
  white-space: nowrap;
 }
+.contactForm{
+ max-width: 90vw;
+}
 }

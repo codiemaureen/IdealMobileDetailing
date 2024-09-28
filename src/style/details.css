@@ -1,7 +1,15 @@
 .details-section{
-  border: 10px solid orange;
+  border: 7px solid orange;
   display: flex;
   padding: 4vw;
   flex-direction: column;
   justify-content: center;
+  max-width: 70vw;
+}
+
+
+@media only screen and (max-width: 480px){
+  .details-section{
+    max-width: 90vw;
+  }
 }
