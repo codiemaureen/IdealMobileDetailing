@@ -74,9 +74,16 @@ h1 {
     font-size:1.5rem;
     white-space: nowrap;
   }
+  .before-after-container{
+    margin: auto;
+    max-height: 100vh;
+  }
+  .image-container{
+    margin: auto;
+    margin-bottom: 10%;
+  }
   .overlay:hover {
       display: flex;
-      margin: auto;
       background-image: url('../images/After/Supreme\ F350/driver_exterior.jpg');
       background-size: cover;
       background-position: center;
