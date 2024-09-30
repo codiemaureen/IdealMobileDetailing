@@ -69,7 +69,11 @@ h1 {
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 480px){
+@media screen and (max-width: 480px){
+  h1{
+    font-size:1.5rem;
+    white-space: nowrap;
+  }
   .overlay:hover {
       display: flex;
       margin: auto;
