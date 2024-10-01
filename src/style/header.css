@@ -9,8 +9,9 @@ h1.heading-title{
 .header {
  margin: auto;
  max-width: 50vw;
+ font-size: 3rem;
  border-bottom: 5px solid orange;
- padding-bottom: 1em;
+ padding-bottom: 2vh;
 }
 
 .logo {
@@ -35,13 +36,10 @@ a:hover{
  color:darkorange
 }
 
-a:visited{
- color: orange;
-}
 
 .media-icons{
  display: flex;
- font-size: 1.5rem;
+ font-size: 1vw;
  justify-content: space-between;
 }
 
@@ -50,11 +48,11 @@ a:visited{
 }
 
 .fb-icon{
- padding-right: .5rem;
+ padding-right: 1vw;
 }
 
 .phone-icon{
- padding-right: .5rem;
+ padding-right: 1vw;
 }
 
 @media only screen and (max-width: 980px){
@@ -70,8 +68,8 @@ a:visited{
  .media-icons{
   font-size: 1rem;
  }
-}
-
+} 
+ 
 @media only screen and (max-width: 480px){
  .header{
   max-width: 75vw;

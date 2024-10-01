@@ -52,6 +52,10 @@ h2 a{
  background-color: darkorange;
 }
 
+.schedule-service:visited {
+  color: white;
+}
+
 @media only screen and (max-width: 920px){
  h2 {
    font-size: 3vw;
@@ -81,6 +85,7 @@ h2 a{
    padding: 5% 10%;
    border-radius: .5rem;
   }
+
 
   .service-options{
     max-width: 70vw;
