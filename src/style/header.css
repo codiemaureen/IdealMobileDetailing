@@ -20,22 +20,41 @@ h1.heading-title{
  max-height: 12vh;
 }
 
-.call-button{
+a{
  display: flex;
- justify-content: end;
  color: orange;
  text-decoration: none;
 }
-.call-button:hover{
- color: darkorange;
+
+a *{
+ display: flex;
 }
-.call-button:visited{
- text-decoration: none;
+
+a:hover{
+ color:darkorange
+}
+
+a:visited{
  color: orange;
 }
 
+
+
+.media-icons{
+ display: flex;
+ justify-content: space-between;
+}
+
+.social-icons{
+ display: flex;
+}
+
+.media-icons a{
+ padding-right: 20%;
+}
+
 .phone-icon{
- padding-right: 2%;
+ padding-right: 4%;
 }
 
 @media only screen and (max-width: 1000px){
