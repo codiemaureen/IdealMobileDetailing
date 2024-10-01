@@ -1,6 +1,6 @@
 h1.heading-title{
  display: block;
- font-size: 3vw;
+ font-size: 3.5vw;
  letter-spacing: .2vw;
  white-space: nowrap;
  text-align: center;
@@ -38,8 +38,6 @@ a:visited{
  color: orange;
 }
 
-
-
 .media-icons{
  display: flex;
  justify-content: space-between;
@@ -59,7 +57,7 @@ a:visited{
 
 @media only screen and (max-width: 1000px){
  h1.heading-title {
-  font-size: 5vw;
+  font-size: 6.5vw;
   letter-spacing: .5vw;
  }
 }
