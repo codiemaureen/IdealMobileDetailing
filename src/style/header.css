@@ -49,12 +49,12 @@ a:visited{
  display: flex;
 }
 
-.media-icons a{
- padding-right: 20%;
+.fb-icon{
+ padding-right: .5rem;
 }
 
 .phone-icon{
- padding-right: 4%;
+ padding-right: .5rem;
 }
 
 @media only screen and (max-width: 1000px){
