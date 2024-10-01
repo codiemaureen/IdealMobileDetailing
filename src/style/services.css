@@ -9,7 +9,7 @@
 }
 
 h2{
- font-size: 2vw;
+ font-size: 1.75vw;
  white-space: nowrap;
 }
 
@@ -22,9 +22,9 @@ h2 a{
  text-decoration: none;
 }
 
-.service-price{
+/* .service-price{
  padding-left: 10%;
-}
+} */
 .services-offered{
  font-size: 1vw;
 }
@@ -58,7 +58,7 @@ h2 a{
 
 @media only screen and (max-width: 920px){
  h2 {
-   font-size: 3vw;
+   font-size: 4.5vw;
    white-space: nowrap;
   }
 
