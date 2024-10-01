@@ -20,6 +20,18 @@ h1.heading-title{
  max-height: 12vh;
 }
 
+.call-button{
+ display: flex;
+ justify-content: end;
+ color: orange;
+}
+.call-button:hover{
+ color: darkorange;
+}
+
+.phone-icon{
+ padding-right: 2%;
+}
 
 @media only screen and (max-width: 1000px){
  h1.heading-title {
