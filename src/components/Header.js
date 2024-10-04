@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons/faFacebook'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import Dropdown from './Dropdown'
 
 
 const Header = () => {
@@ -25,7 +26,9 @@ const Header = () => {
       </section>
     </header>
     <NavBar />
+    <Dropdown />
     </>
+
   )
 }
 

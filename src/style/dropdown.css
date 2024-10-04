@@ -1,0 +1,22 @@
+div.dropdown{
+ margin: 10% 0;
+}
+
+select{
+ width: 100%;
+ color: white;
+ font-size: 2rem;
+ font-weight: bold;
+ text-align: center;
+ background-color: orange;
+}
+
+option{
+ font-size: 1rem;
+ font-weight: bold;
+}
+
+select option:hover{
+ background-color: darkorange;
+ cursor: pointer;
+}

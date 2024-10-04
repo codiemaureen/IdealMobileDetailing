@@ -55,7 +55,12 @@ a:hover{
  padding-right: 1vw;
 }
 
-@media only screen and (max-width: 980px){
+.dropdown{
+  display: none;
+}
+
+
+@media only screen and (max-width: 1280px){
  .header {
    max-width: 70vw;
   }
@@ -68,13 +73,19 @@ a:hover{
  .media-icons{
   font-size: 1rem;
  }
+ .nav{
+  display: none;
+ }
+ .dropdown{
+  display: block;
+ }
 } 
  
 @media only screen and (max-width: 480px){
  .header{
   max-width: 75vw;
- }
- .logo{
+}
+.logo{
   max-height: 15vh;
  }
  h1.heading-title {
@@ -82,5 +93,11 @@ a:hover{
  }
  .media-icons{
   font-size: 1rem;
+ }
+ .nav{
+  display: none;
+ }
+ .dropdown{
+  display: block;
  }
 }
