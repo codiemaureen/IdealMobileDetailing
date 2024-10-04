@@ -1,6 +1,4 @@
 import "../style/dropdown.css"
-import { Link, Router } from "react-router-dom"
-
 
 const Dropdown = () => {
 
