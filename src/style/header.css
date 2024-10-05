@@ -55,7 +55,7 @@ a:hover{
  padding-right: 1vw;
 }
 
-.dropdown{
+.menu-button{
   display: none;
 }
 
@@ -76,7 +76,7 @@ a:hover{
  .nav{
   display: none;
  }
- .dropdown{
+ .menu-button{
   display: block;
  }
 } 
@@ -97,7 +97,7 @@ a:hover{
  .nav{
   display: none;
  }
- .dropdown{
+ .menu-button{
   display: block;
  }
 }
