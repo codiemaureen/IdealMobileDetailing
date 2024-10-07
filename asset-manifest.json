@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/IdealMobileDetailing/static/css/main.7ca1e592.css",
-    "main.js": "/IdealMobileDetailing/static/js/main.7de33cf4.js",
+    "main.js": "/IdealMobileDetailing/static/js/main.a4345126.js",
     "static/js/453.7a56e406.chunk.js": "/IdealMobileDetailing/static/js/453.7a56e406.chunk.js",
+    "static/media/driver_interior.jpg": "/IdealMobileDetailing/static/media/driver_interior.3d3e47a9f3801c7da58f.jpg",
+    "static/media/dashboard.jpg": "/IdealMobileDetailing/static/media/dashboard.678c416bb94081119f52.jpg",
     "static/media/driver_exterior.jpg": "/IdealMobileDetailing/static/media/driver_exterior.ed74f1e0533126ca9701.jpg",
-    "static/media/driver_interior.jpg": "/IdealMobileDetailing/static/media/driver_interior.53adbf841f2ef180df78.jpg",
-    "static/media/back_driver_interior.jpg": "/IdealMobileDetailing/static/media/back_driver_interior.6efcefa3efa06ffaec17.jpg",
-    "static/media/dashboard.jpg": "/IdealMobileDetailing/static/media/dashboard.afafaa7eb659c456d1d8.jpg",
+    "static/media/back_driver_interior.jpg": "/IdealMobileDetailing/static/media/back_driver_interior.7aaa83b89d2931637a54.jpg",
     "static/media/ideal-mobile-detailing.jpg": "/IdealMobileDetailing/static/media/ideal-mobile-detailing.bcfd383d2637f2b29be1.jpg",
     "index.html": "/IdealMobileDetailing/index.html",
     "main.7ca1e592.css.map": "/IdealMobileDetailing/static/css/main.7ca1e592.css.map",
-    "main.7de33cf4.js.map": "/IdealMobileDetailing/static/js/main.7de33cf4.js.map",
+    "main.a4345126.js.map": "/IdealMobileDetailing/static/js/main.a4345126.js.map",
     "453.7a56e406.chunk.js.map": "/IdealMobileDetailing/static/js/453.7a56e406.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ca1e592.css",
-    "static/js/main.7de33cf4.js"
+    "static/js/main.a4345126.js"
   ]
 }
