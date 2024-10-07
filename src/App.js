@@ -4,10 +4,10 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { useState } from "react";
 import Photos from "./components/Photos";
-import F350DriverExterior from '../src/images/Before/Supreme F350/driver_exterior.jpg';
-import F350DriverInterior from '../src/images/Before/Supreme F350/driver_interior.jpg';
-import F350Dashboard from '../src/images/Before/Supreme F350/dashboard.jpg';
-import F350BackDriverInterior from '../src/images/Before/Supreme F350/back_driver_interior.jpg';
+import F350DriverExterior from '../src/images/After/Supreme F350/driver_exterior.jpg';
+import F350DriverInterior from '../src/images/After/Supreme F350/driver_interior.jpg';
+import F350Dashboard from '../src/images/After/Supreme F350/dashboard.jpg';
+import F350BackDriverInterior from '../src/images/After/Supreme F350/back_driver_interior.jpg';
 
 const BEFORE = [F350DriverExterior, F350DriverInterior, F350Dashboard, F350BackDriverInterior];
 
