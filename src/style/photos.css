@@ -4,7 +4,7 @@
   max-width: 40vw;
   padding: 1rem;
   text-align: center;
-  border: 7px solid orange;
+  /* border: 7px solid orange; */
   justify-items: center;
   overflow: hidden;
   display: flex;
@@ -31,6 +31,9 @@ h1 {
   max-height: 50vh;
   margin: auto;
   display: block;
+  -webkit-box-shadow: 10px 10px 86px 23px rgba(145, 141, 134, 1);
+    -moz-box-shadow: 10px 10px 86px 23px rgba(145, 141, 134, 1);
+    box-shadow: 10px 10px 86px 23px rgba(145, 141, 134, 1);
 }
 
 .img-slider-btn {
@@ -72,20 +75,25 @@ h1 {
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 480px){
+
+@media only screen and (max-width: 980px){
   h1{
     font-size:1.5rem;
     white-space: nowrap;
   }
   .before-after-container{
-    margin: auto;
+    margin: 10px auto;
     max-width: 80vw;
     max-height: 100vh;
   }
   .image-container{
     margin: auto;
-    margin-bottom: 10%;
+    max-width: 80vw;
+    max-height: 100vh;
+    margin-bottom: 20%;
   }
+
+
   .overlay:hover {
       display: flex;
       background-image: url('../images/After/Supreme\ F350/driver_exterior.jpg');
