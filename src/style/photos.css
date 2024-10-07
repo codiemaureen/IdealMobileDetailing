@@ -87,18 +87,14 @@ h1 {
     max-height: 100vh;
   }
   .image-container{
-    margin: auto;
-    max-width: 80vw;
+    margin: 20% auto;
+    max-width: 100vw;
     max-height: 100vh;
-    margin-bottom: 20%;
   }
 
-
-  .overlay:hover {
-      display: flex;
-      background-image: url('../images/After/Supreme\ F350/driver_exterior.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
+  .image-container img {
+    -webkit-box-shadow: -1px 10px 60px 4px rgba(145, 141, 134, 1);
+      -moz-box-shadow: -1px 10px 60px 4px rgba(145, 141, 134, 1);
+      box-shadow: -1px 10px 60px 4px rgba(145, 141, 134, 1);
+  }
 }
