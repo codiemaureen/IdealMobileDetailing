@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { useState } from "react";
-import Photos from "./components/Photos";
+import Photos from "./components/Photos"; 
 
 
 const App = () => {
