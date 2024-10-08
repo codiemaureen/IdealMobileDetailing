@@ -62,12 +62,17 @@ const AfterPhotos = () => {
     onMouseLeave={handleMouseLeave} 
     onTouchStart={handleDoubleTap}
     className="gallery">
-        {isHovering ? <img src={beforePhotos[imageIndex]} alt={`before-${imageIndex}`}/> :
-        <img src={afterPhotos[imageIndex]} alt={`after-${imageIndex}`}/>}
-        <button onClick={showPrevImage} className='img-slider-btn' style={{ left: 0}}>
-         <ArrowBigLeft />
+        {isHovering ? 
+          <img src={beforePhotos[imageIndex]} alt={`before-${imageIndex}`}/> :
+          <img src={afterPhotos[imageIndex]} alt={`after-${imageIndex}`}/>}
+        <button onClick={showPrevImage} 
+          className='img-slider-btn' 
+          style={{ left: 0}}>
+          <ArrowBigLeft />
         </button>
-        <button onClick={showNextImage} className='img-slider-btn' style={{ right: 0}}>
+        <button onClick={showNextImage} 
+          className='img-slider-btn' 
+          style={{ right: 0}}>
           <ArrowBigRight />
         </button>
     </div>
