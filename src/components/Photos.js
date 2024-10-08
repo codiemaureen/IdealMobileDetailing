@@ -21,7 +21,7 @@ const Photos = () => {
     onMouseLeave={handleMouseLeave}>
       <h1>Gallery</h1>
       <div>
-        {isHovering ?  <BeforePhotos/> : <AfterPhotos/>}
+        <AfterPhotos/>
       </div>
     </div>
   )
