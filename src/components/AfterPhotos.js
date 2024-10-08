@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { ArrowBigLeft, ArrowBigRight } from 'lucide-react';
-import '../style/afterPhotos.css'
+import '../style/afterPhotos.css';
+
+
 function importAllImages(r) {
  return r.keys().map(r);
 }
 
-const images = importAllImages(require.context('../images/After/Silver Kia', false, /\.(png|jpe?g|svg)$/));
+const images = importAllImages(require.context('../images/After', false, /\.(png|jpe?g|svg)$/));
 
 const AfterPhotos = () => {
 
