@@ -16,9 +16,7 @@ const Photos = () => {
   return (
     <div 
     id="photos" 
-    className='before-after-container'
-    onMouseEnter={handleMouseEnter}
-    onMouseLeave={handleMouseLeave}>
+    className='before-after-container'>
       <h1>Gallery</h1>
       <div>
         <AfterPhotos/>
