@@ -1,0 +1,36 @@
+.gallery {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ position: relative;
+ gap: 10px;
+ /* Optional: Adds spacing between images */
+}
+
+.gallery img {
+ width: auto;
+ height: 70vh;
+ border-radius: 20px;
+ -webkit-box-shadow: -1px 10px 60px 4px rgba(145, 141, 134, 1);
+  -moz-box-shadow: -1px 10px 60px 4px rgba(145, 141, 134, 1);
+  box-shadow: -1px 10px 60px 4px rgba(145, 141, 134, 1);
+}
+
+.img-slider-btn {
+ all: unset;
+ display: block;
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ cursor: pointer;
+ transition: background-color 100ms ease-in-out;
+}
+
+
+.img-slider-btn>* {
+ stroke: white;
+ fill: black;
+ min-width: 2rem;
+ min-height: 2rem;
+ max-width: 5rem;
+}
