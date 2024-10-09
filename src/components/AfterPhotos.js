@@ -38,6 +38,7 @@ const AfterPhotos = () => {
   }
 
   function showPrevImage(){
+  setIsHovering(false);
   setImageIndex(index => {
     if(index === 0) return afterImages.length -1;
     return index - 1;
@@ -45,6 +46,7 @@ const AfterPhotos = () => {
   }
 
   function showNextImage() {
+    setIsHovering(false);
     setImageIndex(index => {
       if(index === afterImages.length - 1) return 0;
       return index + 1;
