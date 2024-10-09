@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/IdealMobileDetailing/static/css/main.bc17dcfe.css",
-    "main.js": "/IdealMobileDetailing/static/js/main.44080d64.js",
+    "main.js": "/IdealMobileDetailing/static/js/main.29596669.js",
     "static/js/453.7a56e406.chunk.js": "/IdealMobileDetailing/static/js/453.7a56e406.chunk.js",
     "static/media/driver_exterior.jpg": "/IdealMobileDetailing/static/media/driver_exterior.ed74f1e0533126ca9701.jpg",
     "static/media/driver_interior.jpg": "/IdealMobileDetailing/static/media/driver_interior.3d3e47a9f3801c7da58f.jpg",
@@ -30,11 +30,11 @@
     "static/media/ideal-mobile-detailing.jpg": "/IdealMobileDetailing/static/media/ideal-mobile-detailing.bcfd383d2637f2b29be1.jpg",
     "index.html": "/IdealMobileDetailing/index.html",
     "main.bc17dcfe.css.map": "/IdealMobileDetailing/static/css/main.bc17dcfe.css.map",
-    "main.44080d64.js.map": "/IdealMobileDetailing/static/js/main.44080d64.js.map",
+    "main.29596669.js.map": "/IdealMobileDetailing/static/js/main.29596669.js.map",
     "453.7a56e406.chunk.js.map": "/IdealMobileDetailing/static/js/453.7a56e406.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc17dcfe.css",
-    "static/js/main.44080d64.js"
+    "static/js/main.29596669.js"
   ]
 }
