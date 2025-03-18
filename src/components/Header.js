@@ -1,4 +1,4 @@
-import logo from '../images/ideal-mobile-detailing.jpg'
+import logo from '../images/pexels-radu-daniel-mrd-1938968-7391656.jpg'
 import NavBar from './NavBar'
 import '../style/header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -13,8 +13,8 @@ const Header = () => {
   return (
     <>
     <header className='header'>
-      <img src={logo} alt="logo" className='logo'/>
       <h1 className='heading-title'>Ideal Mobile Detailing</h1>
+      <img src={logo} alt="logo" className='logo'/>
       <section className='media-icons'>
         <div className='social-icons'>
           <a href='https://www.facebook.com/profile.php?id=100063524828430' target='_blank'><FontAwesomeIcon className='fb-icon' icon= {faFacebook}/></a>
