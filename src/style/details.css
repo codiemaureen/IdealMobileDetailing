@@ -1,7 +1,8 @@
 .details-section{
   border: 7px solid orange;
   display: flex;
-  margin: auto;
+  margin: 40vh auto;
+  /* margin: auto; */
   flex-direction: column;
   justify-content: center;
   max-width: 50vw;

@@ -12,6 +12,7 @@ h1.heading-title{
  font-size: 3rem;
  border-bottom: 5px solid orange;
  padding-bottom: 2vh;
+ position: fixed;
 }
 
 .logo {
