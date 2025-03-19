@@ -1,31 +1,29 @@
-h1.heading-title{
- font-size: 3.5vw;
- letter-spacing: .2vw;
- white-space: nowrap;
- text-align: center;
- padding: 0 1vw;
- position: absolute;
+.header {
+  width: 100vw;
+  position: fixed;
+  padding-bottom: 1vh;
+  border-bottom: 5px solid orange;
+  background-color: black;
 }
 
-.header {
- width: 100vw;
- font-size: 3rem;
- border-bottom: 5px solid orange;
- padding-bottom: 2vh;
- position: fixed;
+
+h1.heading-title{
+  font-size: 3rem;
+  letter-spacing: .2vw;
+  white-space: nowrap;
+  padding: 0;
 }
+
 
 .logo {
- max-height: 30vh;
- display: flex;
- width: 100%;
- object-fit: cover;
- object-position: 40%;
- padding-bottom: 2vh;
+  max-height: 30vh;
+  display: flex;
+  width: 100%;
+  object-fit: cover;
+  object-position: 60%;
 }
 
 a{
- display: flex;
  color: orange;
  text-decoration: none;
 }
@@ -42,20 +40,24 @@ a:hover{
 .media-icons{
  display: flex;
  font-size: 1.5vw;
- justify-content: space-between;
- padding: 0 2vw;
+ justify-content: space-evenly;
+}
+
+.media-icons > *{
+  padding: 2vw;
 }
 
 .social-icons{
  display: flex;
 }
 
-.fb-icon{
- padding-right: 1vw;
+.social-icons > *{
+  padding-left: 2vw;
 }
 
+
 .phone-icon{
- padding-right: 1vw;
+  padding-right: 1vw;
 }
 
 .menu-button{
