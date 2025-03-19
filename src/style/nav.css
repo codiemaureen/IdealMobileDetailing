@@ -9,18 +9,16 @@ nav {
  display: flex;
  width: 100%;
  padding: 0;
- justify-content: space-around;
  gap: 5%;
 }
 
 .navItems {
- margin: 0;
  display: flex;
  list-style-type: none;
  justify-content: space-evenly;
  font-size: 2rem;
  font-weight: 700;
- flex:  1 auto;
+ flex: 1 1 auto;
  background-color: orange;
  border: 2px solid orange;
 }
