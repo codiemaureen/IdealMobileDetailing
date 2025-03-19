@@ -1,10 +1,17 @@
-import "../style/nav.css"
-import { Link, Router } from "react-router-dom"
+import "../style/nav.css";
+import { useState, useEffect } from 'react';
+import { Link, Router } from "react-router-dom";
+import { PopupButton } from 'react-calendly';
+
 
 const NavBar = () => {
   let navItems = ["Home", "Contact Me", "Schedule Service", "Photos", "Reviews"]
 
+    const [rootElement, setRootElement] = useState(null);
   
+    useEffect(() => {
+      setRootElement(document.getElementById("root"));
+    }, [])
   return (
    <nav className="nav">
     <ul className="navList">
@@ -14,11 +21,14 @@ const NavBar = () => {
         <li 
         className="navItems">
         Home</li></a>
-      
-        <a 
-        href="https://calendly.com/codiemaureen/mom-needs-help?back=1&month=2024-09" 
-        className={`navLinks navItems`} arget="_blank"
-        rel="noreferrer"><li className="navItems">Schedule Service</li></a>
+        <li className="navItems">
+        <PopupButton
+          url="https://calendly.com/codiegroth/schedule-your-service" 
+          className={`navLinks navItems`}
+          rootElement={rootElement}
+          text="Schedule Service"
+        />
+        </li>
 
         <Link to="/photos" className={`navLinks navItems`}>
         <li className={`navLinks navItems`} >Photos</li></Link>

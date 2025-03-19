@@ -1,61 +1,73 @@
 .service-options {
   display: flex;
   flex-direction: column;
-  font-size: 2vw;
-}
-
-.service-options:last-child{
-  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 1.5vw;
+  background-color: black;
+  margin: 2vw auto;
+  padding: 2vh 0;
+  justify-content: space-between;
+  min-width: 30%;
+  max-height: 50vh;
 }
 
 .detail-header{
   display: flex;
-  border: 1px solid orange;
-  justify-content: space-between;
-  padding: 0;
+  padding: .5rem;
+  flex-wrap: wrap;
   margin: 0;
+  justify-content: space-between;
+  font-size: 100%;
+  border-bottom: 3px solid orange;
 }
 h2{
- font-size: 1.75vw;
- padding: 0;
- margin: 0;
+  margin: 0;
+  font-size: 100%;
 }
 
 span{
-  padding: 0;
+  margin: 0;
+  font-size: 100%;
+}
+
+
+.service-list{
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-bottom: 0;
   margin: 0;
 }
-/* h2 a{
- margin: 0;
- border-bottom: 2px solid orange;
- margin-bottom: 10%;
- color: white;
- text-decoration: none;
-} */
 
-.service-price{
- padding-left: 10%;
-}
 .services-offered{
- font-size: 1vw;
+  display: flex;
+  /* justify-content: center; */
+  white-space: wrap;
+  font-size: 70%;
+  list-style-type: none;
+}
+
+.header-service{
+  all: unset;
+  cursor: pointer;
+}
+
+.button-container {
+  margin-top: 2vh;
+  width: 100%;
+
 }
 .schedule-service{
  all: unset;
- white-space: nowrap;
  display: flex;
  justify-content: center;
- margin: auto;
- margin-top: 3rem;
- margin-bottom: 2rem;
  background-color: orange;
  color: white;
- font-size: 1vw;
+ white-space: nowrap;
+ font-size: 100%;
  font-weight: 600;
- min-width: 50%;
- max-width: 2rem;
- max-height: 5rem;
  cursor: pointer;
  padding: 5%;
+ margin: auto;
  border-radius: .5rem;
 }
 
@@ -68,37 +80,7 @@ span{
 }
 
 @media only screen and (max-width: 920px){
- h2 {
-   font-size: 4.5vw;
-   white-space: nowrap;
-  }
-
-.services-offered {
-  font-size: 2.5vw;
- }
-
-  .schedule-service {
-   all: unset;
-   white-space: nowrap;
-   display: flex;
-   justify-content: center;
-   margin: auto;
-   margin-top: 3rem;
-   margin-bottom: 2rem;
-   background-color: orange;
-   color: white;
-   font-size: 100%;
-   font-weight: 800;
-   min-width: 50%;
-   max-width: 2rem;
-   max-height: 5rem;
-   cursor: pointer;
-   padding: 5% 10%;
-   border-radius: .5rem;
-  }
-
-
   .service-options{
-    max-width: 70vw;
+    padding: 1vw;
   }
 }
