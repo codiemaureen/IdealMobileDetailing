@@ -7,14 +7,35 @@ const NavBar = () => {
   
   return (
    <nav className="nav">
-    <ul>
-      <li className="navItems"><a href="/IdealMobileDetailing/index.html" className="navLinks">Home</a></li>
-      <li className="navItems"><a href="https://calendly.com/codiemaureen/mom-needs-help?back=1&month=2024-09" className="navLinks" target="_blank">Schedule Service</a></li>
-      <li className="navItems"><Link to="/photos" className="navLinks">Photos</Link></li>
-      <li className="navItems"><a href="https://www.facebook.com/profile.php?id=100063524828430&sk=reviews" target="_blank"className="navLinks">Reviews</a></li>      
-      <li className="navItems"><a href="#contactForm" className="navLinks">Contact Us</a></li>      
+    <ul className="navList">
+
+        <a href="/IdealMobileDetailing/index.html" 
+        className={`navLinks navItems`}>
+        <li 
+        className="navItems">
+        Home</li></a>
+      
+        <a 
+        href="https://calendly.com/codiemaureen/mom-needs-help?back=1&month=2024-09" 
+        className={`navLinks navItems`} arget="_blank"
+        rel="noreferrer"><li className="navItems">Schedule Service</li></a>
+
+        <Link to="/photos" className={`navLinks navItems`}>
+        <li className={`navLinks navItems`} >Photos</li></Link>
+
+        <a href="https://www.facebook.com/profile.php?id=100063524828430&sk=reviews" 
+        target="_blank"
+        rel="noreferrer"
+        className={`navLinks navItems`}>
+        <li className={`navLinks navItems`}>
+        Reviews</li>  
+        </a>
+        
+        <a href="#contactForm" className={`navLinks navItems`}>
+        <li className={`navLinks navItems`}> 
+        Contact Us</li></a>     
     </ul>
-   </nav>
+  </nav>
   )
 }
 
