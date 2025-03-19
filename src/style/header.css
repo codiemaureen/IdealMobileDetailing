@@ -1,9 +1,9 @@
 .header {
+  display: flex;
   width: 100vw;
   position: fixed;
-  padding-bottom: 1vh;
   border-bottom: 5px solid orange;
-  background-color: black;
+  flex-wrap: wrap;
 }
 
 
@@ -15,16 +15,18 @@ h1.heading-title{
 }
 
 
-.logo {
-  max-height: 30vh;
+.header-image {
   display: flex;
+  z-index: -3000;
+  position: absolute;
+  max-height: 30vh;
   width: 100%;
   object-fit: cover;
-  object-position: 60%;
+  object-position: 80%;
 }
 
 a{
- color: orange;
+ color:white;
  text-decoration: none;
 }
 
@@ -32,18 +34,19 @@ a *{
  display: flex;
 }
 
-a:hover{
- color:darkorange
+.social-icon:hover{
+ font-size: 2.5rem;
 }
 
 
-.media-icons{
+.header-content {
  display: flex;
+ width: 100%;
  font-size: 1.5vw;
  justify-content: space-evenly;
 }
 
-.media-icons > *{
+.header-content > *{
   padding: 2vw;
 }
 

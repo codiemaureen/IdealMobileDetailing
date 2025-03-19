@@ -13,19 +13,23 @@ const Header = () => {
   return (
     <>
     <header className='header'>
-      <img src={logo} alt="logo" className='logo'/>
-      <section className='media-icons'>
+      <img src={logo} alt="logo" className='header-image'/>
+      <section className='header-content'>
         <div className='social-icons'>
-          <a href='https://www.facebook.com/profile.php?id=100063524828430' target='_blank'><FontAwesomeIcon className='fb-icon' icon= {faFacebook}/></a>
-          <a href='mailto:idealmobile19@gmail.com'><FontAwesomeIcon className='envelope' icon= {faEnvelope}/></a>
+          <a href='https://www.facebook.com/profile.php?id=100063524828430' target='_blank'
+          className='social-icon'>
+            <FontAwesomeIcon className='fb-icon' icon= {faFacebook}/></a>
+          <a href='mailto:idealmobile19@gmail.com'
+          className='social-icon'>
+            <FontAwesomeIcon className='envelope' icon= {faEnvelope}/></a>
         </div>
           <h1 className='heading-title'>Ideal Mobile Detailing</h1>
         <div className='contact-anchor'>
-          <a className='call-button' href='tel:+15869328782'><FontAwesomeIcon className='phone-icon' icon={ faPhone } shake/>586.932.8782</a>
+          <a className='social-icon' href='tel:+15869328782'><FontAwesomeIcon className='phone-icon' icon={ faPhone } shake/>586.932.8782</a>
         </div>
       </section>
-    </header>
     <NavBar />
+    </header>
     <Dropdown />
     </>
 
