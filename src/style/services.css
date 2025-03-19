@@ -1,30 +1,41 @@
 .service-options {
- justify-items: center;
- font-size: 2vw;
- margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 2vw;
 }
 
 .service-options:last-child{
- padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
+.detail-header{
+  display: flex;
+  border: 1px solid orange;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
 h2{
  font-size: 1.75vw;
- white-space: nowrap;
+ padding: 0;
+ margin: 0;
 }
 
-h2 a{
- display: flex;
- justify-content: space-between;
+span{
+  padding: 0;
+  margin: 0;
+}
+/* h2 a{
+ margin: 0;
  border-bottom: 2px solid orange;
  margin-bottom: 10%;
  color: white;
  text-decoration: none;
-}
-
-/* .service-price{
- padding-left: 10%;
 } */
+
+.service-price{
+ padding-left: 10%;
+}
 .services-offered{
  font-size: 1vw;
 }
