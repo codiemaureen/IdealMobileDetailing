@@ -1,21 +1,19 @@
-.details-section{
+.details-container{
+  padding-top: 5%;
   background-color: orange;
+}
+
+.details-section{
   display: flex;
   flex-wrap: wrap;
-  margin: 30vh 0;
+  margin: 0;
+  margin-top: 30vh;
   justify-content: space-around;
   width: 100vw;
 }
 
-
-@media only screen and (max-width: 980px){
-  .details-section{
-    max-width: 90vw;
-    padding: 0 2vw;
-  }
-}
-@media only screen and (max-width: 480px){
-  .details-section{
-    max-width: 90vw;
+@media screen and (max-width: 340px){
+  .details-section {
+    padding: 20vw auto;
   }
 }
