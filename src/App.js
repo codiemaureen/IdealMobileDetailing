@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { useState } from "react";
 import Photos from "./components/Photos"; 
+import Contact from "./components/Contact";
 
 
 const App = () => {
@@ -46,7 +47,8 @@ const App = () => {
           <Route path="/index.html" element={<Details services={services} />} />
           <Route path="/photos" element={<Photos/>} />
         </Routes>
-      </Router>      
+      </Router>   
+      <Contact />   
       <Footer />
     </div>
   );
