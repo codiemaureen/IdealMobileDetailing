@@ -1,28 +1,24 @@
-.contact-icon *{
-  display: flex;
-  justify-content: center;
+.footer-container {
+  background-color: orange;
+  padding: 3%;
 }
-.contact-icon{
-  border-bottom: 1px solid orange;
-  padding-bottom: 5vh;
-  margin-bottom: 5vh;
-}
+
 .iconCredit {
  display: flex;
  justify-content: center;
  color: white;
-white-space: nowrap;
+ white-space: nowrap;
 }
 .iconCredit a{
  display: flex;
  justify-content: center;
- color: orange;
+ color: black;
  text-decoration: none;
  padding:0 3px;
 }
 
 .iconCredit a:hover {
- color: darkorange;
+ color: white;
  text-decoration: underline;
 }
 
@@ -30,14 +26,21 @@ white-space: nowrap;
   display: flex;
   justify-content: center;
   white-space: nowrap;
+  margin-bottom: 1%;
 }
 
 .codieCredit a{
  text-decoration: none;
- color: orange;
+ color: black;
 }
 
 .codieCredit a:hover{
  text-decoration: underline;
  color: darkorange;
+}
+
+@media screen and (max-width: 860px) {
+  .footer-container {
+    font-size: 70%;
+  }
 }
