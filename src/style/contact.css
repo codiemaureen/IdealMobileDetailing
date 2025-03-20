@@ -2,7 +2,6 @@
  padding-top: 15%;
 }
 .contactForm{
- border: 5px solid orange;
  display: flex;
  background-color: orange;
  justify-content: center;
@@ -14,7 +13,7 @@
 }
 
 form h1 {
- font-size: 100%;
+ font-size: 3rem;
  margin: 0 2vw;
  white-space: nowrap;
 }
@@ -27,7 +26,6 @@ label{
 
 .input-box {
  min-width: 20vw;
- /* padding: 2vh; */
 }
 
 .input-box .field {
@@ -59,8 +57,21 @@ form button:hover {
  background-color: darkorange;
 }
 
+
+.contact-icon * {
+ display: flex;
+ justify-content: center;
+}
+
+.contact-icon {
+ margin-bottom: 5vh;
+}
+
 @media screen and (max-width:700px) {
  .contactForm{
   padding: 5% 20%;
  }
+  form h1{
+   font-size: 200%;
+  }
 }
