@@ -19,7 +19,7 @@ h1.heading-title{
   display: flex;
   z-index: -3000;
   position: absolute;
-  max-height: 30vh;
+  height: 30vh;
   width: 100%;
   object-fit: cover;
   object-position: 80%;
@@ -69,38 +69,38 @@ a *{
 
 
 @media only screen and (max-width: 1280px){
- .header {
-   max-width: 70vw;
-  }
- .logo{
-  max-height: 25vh;
- }
+
  h1.heading-title {
-  font-size: 4vw;
+  font-size: 300%;
+  position: fixed;
+  top: 10%;
  }
- .media-icons{
-  font-size: 1rem;
+ .social-icons{
+  font-size: 300%;
+ }
+
+ .social-icon {
+  padding-right: 50%;
  }
  .nav{
   display: none;
  }
  .menu-button{
+  z-index: 3004;
   display: block;
  }
 } 
- 
+/*  
 @media only screen and (max-width: 480px){
  .header{
-  max-width: 75vw;
+  max-width: 100vw;
 }
-.logo{
-  max-height: 15vh;
- }
+
  h1.heading-title {
   font-size: 5vw;
  }
- .media-icons{
-  font-size: 1rem;
+ .social-icons{
+  font-size: 200%;
  }
  .nav{
   display: none;
@@ -108,4 +108,4 @@ a *{
  .menu-button{
   display: block;
  }
-}
+} */

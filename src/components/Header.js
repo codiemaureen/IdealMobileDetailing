@@ -23,14 +23,15 @@ const Header = () => {
           className='social-icon'>
             <FontAwesomeIcon className='envelope' icon= {faEnvelope}/></a>
         </div>
-          <h1 className='heading-title'>Ideal Mobile Detailing</h1>
-        <div className='contact-anchor'>
-          <a className='social-icon' href='tel:+15869328782'><FontAwesomeIcon className='phone-icon' icon={ faPhone } shake/>586.932.8782</a>
+        <h1 className='heading-title'>
+          Ideal Mobile Detailing</h1>
+        <div className='social-icons'>
+          <a href='tel:+15869328782'><FontAwesomeIcon className='phone-icon' icon={ faPhone } shake/>586.932.8782</a>
         </div>
       </section>
     <NavBar />
     </header>
-    <Dropdown />
+    <Dropdown /> 
     </>
 
   )
