@@ -15,14 +15,6 @@ code {
 }
 
 .app {
-  text-align: center;
   overflow: hidden;
-  border-radius: 5px;
-  min-height: 300px;
 }
 
-@media only screen and (max-width: 480px) {
-  .app{
-    max-width: 90vw;
-  }
-}
