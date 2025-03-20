@@ -37,12 +37,9 @@ nav {
  color: black;
 }
 
-.navLinks:active{
- color: red;
-}
 
 
-/* @media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
  nav{
   display: flex;
   margin: 3vh auto;
@@ -68,4 +65,4 @@ nav {
  .navLinks:active{
   color: orange;
  }
-} */
+}
