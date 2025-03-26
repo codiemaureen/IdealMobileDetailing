@@ -56,7 +56,6 @@ nav {
  .navItems{
   width: 50vw;
   font-size: 1rem;
-  border-bottom: 5px solid orange;
  }
  .navItems:active{
   background-color: white;
