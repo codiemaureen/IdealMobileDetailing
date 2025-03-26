@@ -8,12 +8,12 @@
   flex-wrap: wrap;
   margin: 0;
   margin-top: 30vh;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100vw;
 }
 
 @media screen and (max-width: 340px){
   .details-section {
-    padding: 20vw auto;
+    margin: 20% 0;
   }
 }
