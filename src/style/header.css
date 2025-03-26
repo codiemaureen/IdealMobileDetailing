@@ -2,7 +2,6 @@
   display: flex;
   width: 100vw;
   position: fixed;
-  border-bottom: 5px solid orange;
   flex-wrap: wrap;
 }
 
