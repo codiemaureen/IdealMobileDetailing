@@ -5,7 +5,6 @@ import { PopupButton } from 'react-calendly';
 
 
 const NavBar = () => {
-  let navItems = ["Home", "Contact Me", "Schedule Service", "Photos", "Reviews"]
 
     const [rootElement, setRootElement] = useState(null);
   
