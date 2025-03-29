@@ -40,7 +40,7 @@ const NavBar = () => {
         Reviews</li>  
         </a>
         
-        <a href="#contactForm" className={`navLinks navItems`}>
+        <a href="#contactContainer" className={`navLinks navItems`}>
         <li className={`navLinks navItems`}> 
         Contact Us</li></a>     
     </ul>
