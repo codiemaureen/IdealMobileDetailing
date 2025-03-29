@@ -26,5 +26,11 @@
 }
 
 @media screen and (max-width: 800px) {
-  
+  .contactContainer{
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactContainer > *{
+    margin: 3%;
+  }
 }
