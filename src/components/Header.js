@@ -11,7 +11,7 @@ import Dropdown from './Dropdown'
 const Header = () => {
 
   return (
-    <>
+    <div className='headerContainer'>
     <header className='header'>
       <img src={logo} alt="logo" className='header-image'/>
       <section className='header-content'>
@@ -32,7 +32,7 @@ const Header = () => {
     <NavBar />
     </header>
     <Dropdown /> 
-    </>
+    </div>
 
   )
 }
