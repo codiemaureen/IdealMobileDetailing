@@ -8,7 +8,7 @@ const GoogleMap = () => (
   <h4>Now Servicing the New Port Richey Area!</h4>
    <APIProvider apiKey={apiKey}>
      <Map
-       style={{width: '30vw', height: '40vh'}}
+       style={{width: '40vw', height: '40vh'}}
        defaultCenter={{lat:28.2717 , lng: -82.7195}}
        defaultZoom={12}
        gestureHandling={'greedy'}

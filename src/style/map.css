@@ -5,3 +5,10 @@
  justify-content: center;
  width: 30vw;
 }
+
+@media screen and (max-width: 800px) {
+ .mapContainer {
+  min-width: 50vw;
+  align-items: center;
+ }
+}
