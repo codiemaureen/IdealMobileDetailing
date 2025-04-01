@@ -33,7 +33,7 @@ const Dropdown = () => {
           <a href="/IdealMobileDetailing/index.html">Home</a>
           <a href="https://calendly.com/" target="_blank" rel="noopener noreferrer">Schedule Service</a>
           <a href="https://www.facebook.com/profile.php?id=100063524828430&sk=reviews" target="_blank" rel="noopener noreferrer" className="navLinks">Reviews</a>
-          <Link to="/photos">Photos</Link>
+          <Link to="/photos#photos" >Photos</Link>
           <a href="#contactContainer">Contact Us</a>
         </div>
       )}

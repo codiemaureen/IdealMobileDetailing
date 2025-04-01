@@ -29,7 +29,7 @@ const NavBar = () => {
         />
         </li>
 
-        <Link to="/photos" className={`navLinks navItems`}>
+        <Link to="/photos#photos" className={`navLinks navItems`}>
         <li className={`navLinks navItems`} >Photos</li></Link>
 
         <a href="https://www.facebook.com/profile.php?id=100063524828430&sk=reviews" 

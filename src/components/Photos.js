@@ -7,7 +7,7 @@ const Photos = () => {
     <div 
       id="photos" 
       className='before-after-container'>
-        <h1>Gallery</h1>
+        <h1 id="gallery">Gallery</h1>
         <p>
           Take a Look at Some of Our Work!
         </p>
