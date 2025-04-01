@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { ArrowBigLeft, ArrowBigRight } from 'lucide-react';
 import '../style/afterPhotos.css';
-import { faLessThan } from '@fortawesome/free-solid-svg-icons';
-
 
 function importAllImages(r) {
  return r.keys().map(r);
