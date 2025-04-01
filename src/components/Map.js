@@ -3,7 +3,6 @@ import {APIProvider, Map} from '@vis.gl/react-google-maps';
 import '../style/map.css';
 const apiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
 
-
 const GoogleMap = () => (
  <div className='mapContainer'>
   <h4>Now Servicing the New Port Richey Area!</h4>
