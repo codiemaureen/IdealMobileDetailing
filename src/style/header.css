@@ -12,10 +12,11 @@
 
 
 h1.heading-title{
-  font-size: 3rem;
+  font-size: 3.5rem;
   letter-spacing: .2vw;
   white-space: nowrap;
   padding: 0;
+  font-family: 'Wallpoet', sans-serif;
 }
 
 
