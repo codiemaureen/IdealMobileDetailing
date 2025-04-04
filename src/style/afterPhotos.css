@@ -8,8 +8,8 @@
 }
 
 .gallery img {
-  width: auto;
-  height: 70vh;
+  max-width: 80vw;
+  max-height: 70vh;
   border-radius: 20px;
   -webkit-box-shadow: -1px 10px 60px 4px rgba(145, 141, 134, 1);
   -moz-box-shadow: -1px 10px 60px 4px rgba(145, 141, 134, 1);
