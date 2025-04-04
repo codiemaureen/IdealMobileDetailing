@@ -26,7 +26,7 @@ const ContactForm = () => {
 
   return (
   
-  <section className="contactForm">
+  <section className="contactForm" id='contactForm'>
        <form  onSubmit={onSubmit}>
           <h1>Contact Us!</h1>
           <div className="input-box">
