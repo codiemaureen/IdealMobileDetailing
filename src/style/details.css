@@ -11,9 +11,3 @@
   justify-content: space-between;
   width: 100vw;
 }
-
-@media screen and (max-width: 340px){
-  .details-section {
-    margin: 20% 0;
-  }
-}

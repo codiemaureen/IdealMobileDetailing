@@ -43,7 +43,7 @@ const Service = ({ service }) => {
       url="https://calendly.com/codiegroth/schedule-your-service" 
       className='schedule-service'
       rootElement={rootElement}
-      text="Schedule Your Service Now!"
+      text="Schedule Now!"
     />
     </div>
     </section>
