@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/IdealMobileDetailing/static/css/main.0e00ab07.css",
-    "main.js": "/IdealMobileDetailing/static/js/main.61409483.js",
+    "main.css": "/IdealMobileDetailing/static/css/main.29dbdf1c.css",
+    "main.js": "/IdealMobileDetailing/static/js/main.fd5e86e1.js",
     "static/js/453.7a56e406.chunk.js": "/IdealMobileDetailing/static/js/453.7a56e406.chunk.js",
     "static/media/9.jpg": "/IdealMobileDetailing/static/media/9.ed74f1e0533126ca9701.jpg",
     "static/media/10.jpg": "/IdealMobileDetailing/static/media/10.3d3e47a9f3801c7da58f.jpg",
@@ -19,12 +19,12 @@
     "static/media/wallpoet-latin-400-normal.woff2": "/IdealMobileDetailing/static/media/wallpoet-latin-400-normal.3e835a9c2719777c5fd3.woff2",
     "static/media/wallpoet-latin-400-normal.woff": "/IdealMobileDetailing/static/media/wallpoet-latin-400-normal.be34d7a524cc676b872e.woff",
     "index.html": "/IdealMobileDetailing/index.html",
-    "main.0e00ab07.css.map": "/IdealMobileDetailing/static/css/main.0e00ab07.css.map",
-    "main.61409483.js.map": "/IdealMobileDetailing/static/js/main.61409483.js.map",
+    "main.29dbdf1c.css.map": "/IdealMobileDetailing/static/css/main.29dbdf1c.css.map",
+    "main.fd5e86e1.js.map": "/IdealMobileDetailing/static/js/main.fd5e86e1.js.map",
     "453.7a56e406.chunk.js.map": "/IdealMobileDetailing/static/js/453.7a56e406.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e00ab07.css",
-    "static/js/main.61409483.js"
+    "static/css/main.29dbdf1c.css",
+    "static/js/main.fd5e86e1.js"
   ]
 }
