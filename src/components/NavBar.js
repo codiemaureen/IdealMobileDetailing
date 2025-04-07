@@ -7,7 +7,10 @@ import { PopupButton } from 'react-calendly';
 const NavBar = () => {
 
     const [rootElement, setRootElement] = useState(null);
-  
+     const handleScrollToTop = () => {
+        window.scrollTo(0, 0); // Scroll to the top of the page
+    };
+
     useEffect(() => {
       setRootElement(document.getElementById("root"));
     }, [])
@@ -30,7 +33,7 @@ const NavBar = () => {
         </li>
 
         <Link to="/photos#photos" className={`navLinks navItems`}>
-        <li className={`navLinks navItems`} >Photos</li></Link>
+        <li className={`navLinks navItems`} onClick={handleScrollToTop}>Photos</li></Link>
 
         <a href="https://www.facebook.com/profile.php?id=100063524828430&sk=reviews" 
         target="_blank"
