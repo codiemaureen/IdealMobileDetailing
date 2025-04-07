@@ -1,15 +1,12 @@
 .dropdown {
  position: fixed;
- /* position: relative;
- margin-top: 30vh; */
 }
 
 .menu-button{
  position: relative;
- margin-top: 29vh;
+ margin-top: 30vh;
  background-color: orange;
  width: 100vw;
- /* font-size: 2rem; */
  color: white;
 }
 
