@@ -1,6 +1,6 @@
 import "../style/nav.css";
 import { useState, useEffect } from 'react';
-import { Link, Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { PopupButton } from 'react-calendly';
 
 
