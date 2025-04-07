@@ -7,12 +7,10 @@ const Dropdown = () => {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  // Toggle dropdown visibility
   const toggleDropdown = () => {
     setIsOpen((prev) => !prev);
   };
 
-  // Close dropdown when clicking outside
   useEffect(() => {
     const closeDropdown = (e) => {
       if (!e.target.closest(".dropdown")) {
@@ -30,11 +28,11 @@ const Dropdown = () => {
       </button>
       {isOpen && (
         <div className="dropdown-content">
-          <a href="/IdealMobileDetailing/index.html">Home</a>
-          <a href="https://calendly.com/" target="_blank" rel="noopener noreferrer">Schedule Service</a>
-          <a href="https://www.facebook.com/profile.php?id=100063524828430&sk=reviews" target="_blank" rel="noopener noreferrer" className="navLinks">Reviews</a>
-          <Link to="/photos#photos" >Photos</Link>
-          <a href="#contactForm">Contact Us</a>
+          <a href="/IdealMobileDetailing/index.html" onClick={toggleDropdown}>Home</a>
+          <a href="https://calendly.com/" target="_blank" rel="noopener noreferrer" onClick={toggleDropdown}>Schedule Service</a>
+          <a href="https://www.facebook.com/profile.php?id=100063524828430&sk=reviews" target="_blank" rel="noopener noreferrer" className="navLinks" onClick={toggleDropdown}>Reviews</a>
+          <Link to="/photos#photos" onClick={toggleDropdown}>Photos</Link>
+          <a href="#contactForm" onClick={toggleDropdown}>Contact Us</a>
         </div>
       )}
     </div>
