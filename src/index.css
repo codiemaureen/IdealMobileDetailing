@@ -17,4 +17,6 @@ code {
 .app {
   overflow: hidden;
 }
-
+a:hover{
+  cursor: pointer;
+}
