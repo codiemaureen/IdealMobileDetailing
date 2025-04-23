@@ -18,7 +18,7 @@ const NavBar = () => {
    <nav className="nav">
     <ul className="navList">
 
-        <a href="/IdealMobileDetailing/index.html" 
+        <a href="/" 
         className={`navLinks navItems`}>
         <li 
         className="navItems">

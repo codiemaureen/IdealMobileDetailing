@@ -1,0 +1,47 @@
+.aboutContainer{
+ display: flex;
+ margin: 35vh 0 10vh 0;
+ text-align: center;
+}
+
+.aboutHeader{
+ font-size: 1.5rem;
+
+}
+
+.aboutImg{
+ width: 50vw;
+ aspect-ratio: 16/8;
+}
+
+.aboutBlurbContainer{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ margin: 0 10vw;
+}
+
+.aboutBlurb{
+ font-size: 1.25rem;
+}
+
+.phoneLink{
+ display: flex;
+ justify-content: center;
+}
+
+.phoneIcon{
+ margin-right: 1vh;
+}
+
+@media screen and (max-width: 1080px) {
+ .aboutContainer{
+  align-items: center;
+  flex-direction: column;
+ }
+ .aboutImg {
+   width: 80vw;
+   aspect-ratio: 16/8;
+   padding-bottom: 5vh;
+  }
+}

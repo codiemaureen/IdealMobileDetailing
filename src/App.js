@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import { useState } from "react";
 import Photos from "./components/Photos"; 
 import Contact from "./components/Contact";
+import About from "./components/About";
 
 
 const App = () => {
@@ -40,8 +41,9 @@ const App = () => {
  ])
   return (
     <div className="app">
-      <Router basename="/IdealMobileDetailing">
+      <Router>
       <Header/>
+      <About />
         <Routes>
           <Route path="/" element={<Details services={services} />} />
           <Route path="/index.html" element={<Details services={services} />} />
