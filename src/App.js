@@ -6,6 +6,7 @@ import { useState } from "react";
 import Photos from "./components/Photos"; 
 import Contact from "./components/Contact";
 import About from "./components/About";
+import Home from "./components/Home";
 
 
 const App = () => {
@@ -43,10 +44,8 @@ const App = () => {
     <div className="app">
       <Router>
       <Header/>
-      <About />
-        <Routes>
-          <Route path="/" element={<Details services={services} />} />
-          <Route path="/index.html" element={<Details services={services} />} />
+        <Routes>           
+          <Route path="/" element={<Home services={services} />} />
           <Route path="/photos" element={<Photos/>} />
         </Routes>
       </Router>   
