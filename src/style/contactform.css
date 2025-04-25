@@ -15,7 +15,7 @@
 }
 
 form h1 {
- font-size: 4vh;
+ font-size: 3vh;
  white-space: nowrap;
 }
 
@@ -62,5 +62,12 @@ form button:hover {
  .contactForm {
   width: 90%;
   max-height: 60%;
+  padding: 0;
+ }
+ .input-box{
+  font-size: 2vh;
+ }
+ .field{
+  align-self: center;
  }
 } 
