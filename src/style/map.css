@@ -1,3 +1,16 @@
+.mapWrapper{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ margin: 0;
+}
+
+.mapHeader{
+ font-size: 2vw;
+}
+
 .mapContainer{
  display: flex;
  flex-direction: column;
@@ -5,14 +18,16 @@
  align-items: center;
  justify-content: center;
  width: 40vw;
- height: 70vh;
+ height: 60vh;
 }
 
 
 @media screen and (max-width: 800px) {
+ .mapWrapper{
+  width: 100%;
+ }
  .mapContainer {
-  width: 90vw;
+  width: 90%;
   height: 50vh;
-  align-items: center;
  }
 }
