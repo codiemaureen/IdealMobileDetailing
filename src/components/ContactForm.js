@@ -1,5 +1,5 @@
  import '../style/contactform.css';
-// AIzaSyBejAN7985L6m9yq_aYCZl0zGxZawvUpaU
+
 const ContactForm = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -26,16 +26,16 @@ const ContactForm = () => {
 
   return (
   
-  <section className="contactForm" id='contactForm'>
-       <form  onSubmit={onSubmit}>
+  <section className="contactFormContainer" id='contactForm'>
+       <form  className="contactForm" onSubmit={onSubmit}>
           <h1>Contact Us!</h1>
           <div className="input-box">
-            <label>Name</label>
+            <label>Name:</label>
             <input type="text" className="field" placeholder="Enter Your Name" name="name"></input>
           </div>
 
         <div className="input-box">
-          <label>Email Address</label>
+          <label>Email Address:</label>
           <input 
           type="email" 
           required 
@@ -43,7 +43,7 @@ const ContactForm = () => {
           </input>
         </div>        
         <div className="input-box">
-         <label>Message</label>
+         <label>Message:</label>
          <textarea 
          name="message" className="field mess" placeholder="Enter your message"></textarea>
         </div>        
