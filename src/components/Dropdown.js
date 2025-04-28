@@ -1,10 +1,16 @@
 import "../style/dropdown.css"
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { PopupButton } from 'react-calendly';
+
 
 
 const Dropdown = () => {
+    const [rootElement, setRootElement] = useState(null);
 
+    useEffect(() => {
+      setRootElement(document.getElementById("root"));
+    }, [])
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -31,7 +37,12 @@ const Dropdown = () => {
       {isOpen && (
         <div className="dropdown-content">
           <a href="/" onClick={toggleDropdown}>Home</a>
-          <a href="https://calendly.com/mason-idealmobiledetailing/30min" target="_blank" rel="noopener noreferrer" onClick={toggleDropdown}>Schedule Service</a>
+          <a><PopupButton
+          url="https://calendly.com/mason-idealmobiledetailing/30min" 
+          className={`dropdownCal`}
+          rootElement={rootElement}
+          text="Schedule Service"
+          /></a>
           <a href="https://www.facebook.com/profile.php?id=100063524828430&sk=reviews" target="_blank" rel="noopener noreferrer" className="navLinks" onClick={toggleDropdown}>Reviews</a>
           <Link to="/photos#photos" onClick={() => {
             toggleDropdown(); 
