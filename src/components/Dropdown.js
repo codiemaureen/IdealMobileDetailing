@@ -31,7 +31,7 @@ const Dropdown = () => {
       {isOpen && (
         <div className="dropdown-content">
           <a href="/" onClick={toggleDropdown}>Home</a>
-          <a href="https://calendly.com/" target="_blank" rel="noopener noreferrer" onClick={toggleDropdown}>Schedule Service</a>
+          <a href="https://calendly.com/mason-idealmobiledetailing/30min" target="_blank" rel="noopener noreferrer" onClick={toggleDropdown}>Schedule Service</a>
           <a href="https://www.facebook.com/profile.php?id=100063524828430&sk=reviews" target="_blank" rel="noopener noreferrer" className="navLinks" onClick={toggleDropdown}>Reviews</a>
           <Link to="/photos#photos" onClick={() => {
             toggleDropdown(); 
