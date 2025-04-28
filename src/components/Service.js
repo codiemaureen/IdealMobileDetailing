@@ -16,7 +16,7 @@ const Service = ({ service }) => {
       <div className='detail-header'>
         <h2>
           <PopupButton
-            url="https://calendly.com/codiegroth/schedule-your-service" 
+            url="https://calendly.com/mason-idealmobiledetailing/30min" 
             className='header-service'
             rootElement={rootElement}
             text={service.title}
@@ -25,7 +25,7 @@ const Service = ({ service }) => {
 
         
           <PopupButton
-          url="https://calendly.com/codiegroth/schedule-your-service" 
+          url="https://calendly.com/mason-idealmobiledetailing/30min" 
           className='header-service'
           rootElement={rootElement}
           text={service.price}
@@ -40,7 +40,7 @@ const Service = ({ service }) => {
     </div>
     <div className='button-container'>
     <PopupButton
-      url="https://calendly.com/codiegroth/schedule-your-service" 
+      url="https://calendly.com/mason-idealmobiledetailing/30min" 
       className='schedule-service'
       rootElement={rootElement}
       text="Schedule Now!"
