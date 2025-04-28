@@ -22,7 +22,7 @@ const Header = () => {
           <a href='https://www.facebook.com/profile.php?id=100063524828430' target='_blank'
           className='social-icon'>
             <FontAwesomeIcon className='fb-icon' icon= {faFacebook}/></a>
-          <a href='mailto:idealmobile19@gmail.com'
+          <a href='mailto:mason@idealmobiledetailing.com'
           className='social-icon'>
             <FontAwesomeIcon className='envelope' icon= {faEnvelope}/></a>
         </div>
