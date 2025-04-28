@@ -25,7 +25,7 @@ const NavBar = () => {
         Home</li></a>
         <li className="navItems">
         <PopupButton
-          url="https://calendly.com/codiegroth/schedule-your-service" 
+          url="https://calendly.com/mason-idealmobiledetailing/30min" 
           className={`navLinks navItems`}
           rootElement={rootElement}
           text="Schedule Service"
