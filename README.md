@@ -27,9 +27,8 @@ following information
 
 Planned features and future direction of the project.
 
-- Add Calendy Scheduling Feature - [Calendly API Documentation]
-  (https://developer.calendly.com/api-docs/4b402d5ab3edd-calendly-developer)
-- Add Contact me Form
+- Add image carousel to photos
+- Add Input form for client to upload images
 - Add Stripe or Venmo Payment Option
 - User Account to access previously booked appointments and make changes to exsisting/pending appointments
 
