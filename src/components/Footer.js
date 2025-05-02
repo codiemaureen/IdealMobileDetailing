@@ -3,6 +3,7 @@ import "../style/footer.css"
 
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
    <footer className="footer-container">
     <div className="codieCredit">
@@ -12,6 +13,9 @@ const Footer = () => {
       <a target="_blank" rel="noreferrer" href="https://icons8.com/icon/ddI5aoHK2pGh/automatic-car-wash">Automatic Car Wash</a> icon by
       <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
      </div>
+         <p>
+      &copy; { currentYear } Ideal Mobile Detailing. All rights reserved.
+    </p>
    </footer>
    )
   }
