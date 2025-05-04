@@ -1,7 +1,9 @@
 .aboutContainer{
- display: flex;
- margin: 35vh 0 10vh 0;
- text-align: center;
+  display: flex;
+  margin: 35vh 0 10vh 0;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 2vh 0;
 }
 
 .aboutHeader{
@@ -9,16 +11,14 @@
 
 }
 
-.aboutImg{
- width: 50vw;
- aspect-ratio: 16/8;
-}
 
 .aboutBlurbContainer{
  display: flex;
  flex-direction: column;
- justify-content: space-between;
- margin: 0 10vw;
+ align-items: center;
+ max-width: 40vw;
+ justify-content: space-evenly;
+ margin: 4vh;
 }
 
 .aboutBlurb{
@@ -35,13 +35,16 @@
 }
 
 @media screen and (max-width: 1080px) {
- .aboutContainer{
-  align-items: center;
-  flex-direction: column;
- }
- .aboutImg {
-   width: 80vw;
-   aspect-ratio: 16/8;
-   padding-bottom: 5vh;
+  .aboutContainer{
+    align-items: center;
+    flex-direction: column;
+  }
+  .aboutImg {
+    width: 80vw;
+    aspect-ratio: 16/8;
+    padding-bottom: 5vh;
+    }
+  .aboutBlurbContainer{
+    max-width: 80vw;
   }
 }
