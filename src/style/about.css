@@ -33,6 +33,9 @@
 .phoneIcon{
  margin-right: 1vh;
 }
+.aboutImgMobile{
+  display: none;
+}
 
 @media screen and (max-width: 1080px) {
   .aboutContainer{
@@ -40,11 +43,20 @@
     flex-direction: column;
   }
   .aboutImg {
-    width: 80vw;
-    aspect-ratio: 16/8;
-    padding-bottom: 5vh;
-    }
+    display: none;
+  }
+  .aboutImgMobile{
+    display:contents;
+  }
+
+  .getQuote{
+    margin-top: 4vh;
+  }
+  .phoneLink{
+    order: 3;
+  }
   .aboutBlurbContainer{
-    max-width: 80vw;
+  max-width: 80vw;
+  order: 1;
   }
 }
