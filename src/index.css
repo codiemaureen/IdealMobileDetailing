@@ -13,9 +13,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.fixed-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 110vh;
+  width: 110vw;
+  background-image: url('../src/images/pexels-radu-daniel-mrd-1938968-7391656.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
 .app {
-  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.515);
 }
 a:hover{
   cursor: pointer;

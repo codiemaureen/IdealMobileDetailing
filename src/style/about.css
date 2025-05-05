@@ -1,14 +1,13 @@
 .aboutContainer{
   display: flex;
-  margin: 35vh 0 10vh 0;
   text-align: center;
   justify-content: space-evenly;
-  padding: 2vh 0;
+  padding: 40vh 0;
+  background-color: rgba(0, 0, 0, 0.515);
 }
 
 .aboutHeader{
- font-size: 1.5rem;
-
+  font-size: 1.5rem;
 }
 
 

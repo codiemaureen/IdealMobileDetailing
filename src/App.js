@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import { useState } from "react";
 import Photos from "./components/Photos"; 
 import Contact from "./components/Contact";
-import About from "./components/About";
 import Home from "./components/Home";
 
 
@@ -41,17 +40,20 @@ const App = () => {
   }
  ])
   return (
-    <div className="app">
-      <Router>
-      <Header/>
-        <Routes>           
-          <Route path="/" element={<Home services={services} />} />
-          <Route path="/photos" element={<Photos/>} />
-        </Routes>
-      </Router>   
-      <Contact />   
-      <Footer />
-    </div>
+    <>
+      <div className="fixed-background"/>
+      <div className="app">
+        <Router>
+        <Header/>
+          <Routes>           
+            <Route path="/" element={<Home services={services} />} />
+            <Route path="/photos" element={<Photos/>} />
+          </Routes>
+        </Router>   
+        <Contact />   
+        <Footer />
+      </div>
+    </>
   );
 }
 

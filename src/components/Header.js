@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <div className='headerContainer'>
     <header className='header'>
-      <img src={logo} alt="logo" className='header-image'/>
+      <NavBar />
       <section className='header-content'>
         <div className='social-icons'>
           <a href='https://www.facebook.com/profile.php?id=100063524828430' target='_blank'
@@ -32,7 +32,6 @@ const Header = () => {
           <a href='tel:+15869328782'><FontAwesomeIcon className={`${'phone-icon'} ${'social-icon'}`}icon={ faPhone } shake/>586.932.8782</a>
         </div>
       </section>
-    <NavBar />
     </header>
     <Dropdown /> 
     </div>

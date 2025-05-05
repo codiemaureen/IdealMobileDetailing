@@ -1,10 +1,11 @@
 .dropdown {
  position: fixed;
+ z-index: 6000;
 }
 
 .menu-button{
- position: relative;
- margin-top: 30vh;
+ position: fixed;
+ margin-bottom: 10vh;
  background-color: orange;
  width: 100vw;
  color: white;
@@ -15,6 +16,7 @@
  background-color: darkorange;
 }
 .dropdown-content {
+  width: 100vw;
   position: "absolute";
   top: "100%";
   left: 0; 
