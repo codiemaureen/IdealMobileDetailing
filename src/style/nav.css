@@ -8,36 +8,34 @@ nav {
  list-style-type: none;
  display: flex;
  width: 100%;
+ margin: 0 2vw;
  padding: 0;
  gap: 5%;
 }
 
 .navItems {
+ all: unset;
  display: flex;
  list-style-type: none;
  justify-content: space-evenly;
- font-size: 2rem;
- font-weight: 700;
+ font-size: 1.5vw;
  flex: 1 1 auto;
- background-color: orange;
- border: 2px solid orange;
+ color: orange;  
 }
 .navLinks{
- color: white;
+ color: orange;
  text-decoration: none;
 }
 
 .navItems:hover{
  opacity: 90%;
- color: black;
+ cursor: pointer;
+ text-decoration: underline;
 }
 
-.navLinks:hover{
- opacity: 90%;
- color: black;
+.navLinks:active{
+ text-align: none;
 }
-
-
 
 @media only screen and (max-width: 1200px) {
  nav{
