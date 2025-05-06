@@ -2,12 +2,11 @@
   display: flex;
   text-align: center;
   justify-content: space-evenly;
-  padding: 40vh 0;
-  background-color: rgba(0, 0, 0, 0.515);
+  padding: 30vh 0 5vh 0;
 }
 
 .aboutHeader{
-  font-size: 1.5rem;
+  font-size: 3.25vh;
 }
 
 
@@ -40,6 +39,11 @@
   .aboutContainer{
     align-items: center;
     flex-direction: column;
+    padding: 20vh 0 0 0;    
+  }
+  .aboutHeader{
+    padding-top: 5vh;
+    font-size: 6vw;
   }
   .aboutImg {
     display: none;
@@ -49,13 +53,17 @@
   }
 
   .getQuote{
-    margin-top: 4vh;
+    margin-top: 10vh;
   }
   .phoneLink{
     order: 3;
   }
   .aboutBlurbContainer{
-  max-width: 80vw;
-  order: 1;
+    max-width: 90vw;
+    order: 1;
+  }
+  .aboutBlurb{
+    padding: 5vh 0;
+    font-size: 3.25vw;
   }
 }
