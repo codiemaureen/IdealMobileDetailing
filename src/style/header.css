@@ -1,14 +1,14 @@
 .headerContainer{
   z-index: 5000;
   position: fixed;
-  background: linear-gradient(#000000, #00000080) ;
 }
 
 .header {
   display: flex;
-  width: 100vw;
-  padding-top: 3vh;
   position: fixed;
+  align-content: flex-start;
+  width: 100vw;
+  height: 50vh;
   flex-wrap: wrap;
   z-index: 5050;
   background: linear-gradient(#000000, #00000000);
@@ -20,41 +20,40 @@ h1.heading-title{
   letter-spacing: 1.25vw;
   white-space: nowrap;
   position: fixed;
-  top: 10%;
+  top: 8%;
   padding: 0;
   font-family: 'Wallpoet', sans-serif;
   justify-content: center;
+  align-self: flex-end;
 }
 
+a.heading-title{
+  color: orange;
+}
+a.heading-title:hover{
+  color: white;
+}
 
 a{
- color:white;
- text-decoration: none;
+  color:white;
+  text-decoration: none;
   display: flex;
 }
 
 .social-icons {
   display: flex;
-}
-
-.social-icons>* {
-  padding-left: 2vw;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .social-icon:hover{
   color: orange;
 }
 
-.heading-title:hover {
-  color: orange;
-  text-align: center;
-  justify-content: center;
-}
-
 .header-content {
   display: flex;
   width: 100%;
-  font-size: 1.5vw;
+  font-size: 1vw;
   justify-content: space-evenly;
 }
 

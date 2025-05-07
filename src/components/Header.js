@@ -26,13 +26,11 @@ const Header = () => {
           className='social-icon'>
             <FontAwesomeIcon className='envelope' icon= {faEnvelope}/>
           </a>
+          <a href='tel:+15869328782' className={`${'social-icon'}`}><FontAwesomeIcon className={`${'phone-icon'} ${'social-icon'}`}icon={ faPhone } shake/>586.932.8782</a>
         </div>
         <h1 className='heading-title' id='heading-title' onClick={handleScrollToTop}>
           <a href='#heading-title' className='heading-title'>Ideal Mobile Detailing</a>
         </h1>
-        <div className='social-icons'>
-          <a href='tel:+15869328782' className={`${'social-icon'}`}><FontAwesomeIcon className={`${'phone-icon'} ${'social-icon'}`}icon={ faPhone } shake/>586.932.8782</a>
-      </div>
       </section>
     </header>
     <Dropdown /> 
