@@ -1,5 +1,5 @@
 #contactContainer{
- padding-top: 5%;
+ padding: 5vh 0;
 }
 
 .contactHeader{
@@ -17,7 +17,8 @@
 .contact-icon {
   display: block;
   width: 100%;
-  margin-top: 1%;
+  margin: 5vh 0;
+
 }
 
 .contact-icon * {
