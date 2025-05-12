@@ -31,12 +31,14 @@ const Service = ({ service }) => {
           text={service.price}
         />
       </div>
-
+      <img src={service.imgUrl} alt={service.title} className='service-image'/>
+      <div className='service-wrapper'>
       {service.included.map((incServ) => (
-       <ul className='service-list'>
-        <li className="services-offered" key={service.id}>{incServ}</li>
-       </ul>
-    ))}
+        <ul className='service-list'>
+          <li className="services-offered" key={service.id}>{incServ.id}{incServ}</li>
+        </ul>
+      ))}
+    </div>
     </div>
     <div className='button-container'>
     <PopupButton
