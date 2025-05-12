@@ -14,6 +14,7 @@ const App = () => {
    "id": 1,
    "title": "Complete Detail",
    "price": "$120.00",
+   "imgUrl": "/pexels-karolina-grabowska-4870692.jpg",
    "included": [
     "EXTERIOR HAND WASH/CHAMOIS", "INTERIOR VACCUM CARPETS/FLOOR MATS", "INTERIOR/EXTERIOR WINDOW CLEANING", "FULL DASH RESTORATION/DOORJAM DETAIL"
    ]
@@ -22,6 +23,7 @@ const App = () => {
    "id": 2,
    "title": "Supreme Detail",
    "price": "$180.00",
+   "imgUrl": "/pexels-khunkorn-laowisit-1359149-5233264.jpg",
    "included": [
     "EXTERIOR HAND WASH/CHAMOIS", "INTERIOR VACCUM CARPETS/FLOOR MATS", "INTERIOR/EXTERIOR WINDOW CLEANING", "FULL DASH RESTORATION/DOORJAM DETAIL", "VINYL DRESSED INTERIOR/TIRES",
     "INTERIOR SHAMPOO CARPETS/FLOOR MATS & SEATS"
@@ -31,6 +33,7 @@ const App = () => {
    "id": 3,
    "title": "Ultimate Detail",
    "price": "$240.00",
+   "imgUrl": "/pexels-bylukemiller-14231684.jpg",
    "included": [
     "EXTERIOR HAND WASH/CHAMOIS", "INTERIOR VACCUM CARPETS/FLOOR MATS", "INTERIOR/EXTERIOR WINDOW CLEANING", "FULL DASH RESTORATION/DOORJAM DETAIL", "VINYL DRESSED INTERIOR/TIRES",
     "INTERIOR SHAMPOO CARPETS/FLOOR MATS & SEATS",
