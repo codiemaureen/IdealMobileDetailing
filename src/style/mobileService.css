@@ -1,0 +1,48 @@
+.mobileService{
+ height: 90vh;
+ background-color: rgba(0, 0, 0, 0.559);
+ display: flex;
+ font-size: 4vh;
+ text-align: center;
+}
+.mobileServiceImage {
+ width: 50vw;
+ aspect-ratio: 1;
+}
+
+.mobileServiceWrapper{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ width: 50%;
+}
+
+.mobileServiceWrapper > * {
+ padding: 1vh auto;
+}
+
+@media screen and (max-width: 960px){
+ .mobileService {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.5vh;
+  height: 110vh;
+  }
+
+  .mobileServiceImage {
+   width: 100vw;
+   height: 60vh;
+  }
+
+  .mobileServiceWrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 90%;
+   
+  }
+  .schedule-service{
+   padding: 3vh;
+  }
+}

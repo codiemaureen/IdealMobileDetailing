@@ -6,6 +6,7 @@ import { useState } from "react";
 import Photos from "./components/Photos"; 
 import Contact from "./components/Contact";
 import Home from "./components/Home";
+import MobileService from "./components/MobileService";
 
 
 const App = () => {
@@ -53,6 +54,7 @@ const App = () => {
             <Route path="/photos" element={<Photos/>} />
           </Routes>
         </Router>   
+        <MobileService />
         <Contact />   
         <Footer />
       </div>
