@@ -30,8 +30,18 @@ span{
   font-size: 100%;
 }
 
+.service-image{
+  height: 30vh;
+  max-width: 80%;
+  margin: 5vh 0;
+}
+.service-wrapper{
+  justify-items: center;
+}
 
 .service-list{
+  width: 60%;
+  text-align: start;
   padding: 0.5rem;
   padding-left: 1rem;
   padding-bottom: 0;
@@ -41,7 +51,7 @@ span{
 .services-offered{
   display: flex;
   white-space: wrap;
-  font-size: 70%;
+  font-size:  70%;
   list-style-type: none;
 }
 
