@@ -1,6 +1,7 @@
 .footer-container {
-  background-color: orange;
-  padding: 3%;
+  background: linear-gradient(rgba(255, 166, 0, 0.829),hsla(0, 0%, 5%, 0.475));
+  top: auto;
+  padding-bottom: .5%;
 }
 
 .iconCredit {
@@ -12,13 +13,13 @@
 .iconCredit a{
  display: flex;
  justify-content: center;
- color: black;
+ color: white;
  text-decoration: none;
  padding:0 3px;
 }
 
 .iconCredit a:hover {
- color: white;
+ color: black;
  text-decoration: underline;
 }
 
@@ -32,11 +33,17 @@
 .codieCredit a{
  text-decoration: none;
  color: black;
+ font-weight: 600;
+ font-size: 2.5vh;
 }
 
 .codieCredit a:hover{
  text-decoration: underline;
- color: darkorange;
+ color: white;
+}
+
+.copyright{
+  text-align: center;
 }
 
 @media screen and (max-width: 860px) {
