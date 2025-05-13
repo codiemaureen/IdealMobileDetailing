@@ -99,4 +99,7 @@ span{
     width:70%;
     font-size: 60%;
   }
+  .service-wrapper{
+    justify-content: center;
+  }
 }
