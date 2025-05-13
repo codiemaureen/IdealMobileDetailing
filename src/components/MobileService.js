@@ -15,7 +15,7 @@ const MobileService = () => {
   
     <img src={mobileService} alt="" className='mobileServiceImage'/>
    <div className="mobileServiceWrapper">
-     <h3>Where Convenience Meets Craftsmanship.</h3>
+     <h3>Where Convenience Meets Craftsmanship</h3>
      <p className='mobileServiceBlurb'>At Ideal Mobile Detailing, we combine luxury care with personalized service — delivering showroom-quality results right to your doorstep. From booking to final polish, every detail is handled with precision and professionalism.</p>
      <PopupButton
       url="https://calendly.com/mason-idealmobiledetailing/30min" 
