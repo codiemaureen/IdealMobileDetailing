@@ -54,7 +54,6 @@ const App = () => {
             <Route path="/photos" element={<Photos/>} />
           </Routes>
         </Router>   
-        <MobileService />
         <Contact />   
         <Footer />
       </div>

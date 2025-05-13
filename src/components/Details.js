@@ -1,5 +1,6 @@
 import Service from "./Service"
 import '../style/details.css'
+import MobileService from "./MobileService"
 
 const Details = ({ services }) => {
   return (
@@ -9,6 +10,7 @@ const Details = ({ services }) => {
       <Service key={service.id} service={service} />
      ))}
     </section>
+    <MobileService />
     </div>
   )
 }
